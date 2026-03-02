@@ -2,7 +2,7 @@ OPAL-X> configure done argc= 4
 OPAL-X>               ____  _____        _       __   __
 OPAL-X> 
 OPAL-X> This is OPAL-X (Object Oriented Parallel Accelerator Library) Version 1.0
-OPAL-X>             git rev. da2e16e7dbeabbe6bf7dd74d130628a943c3a7df
+OPAL-X>             git rev. 623313db0b6fb7e6646cbe284036a608e7c65c71
 OPAL-X> 
 OPAL-X> 
 OPAL-X>                      (c) PSI, http://amas.web.psi.ch
@@ -13,7 +13,7 @@ OPAL-X>
 OPAL-X> Please send cookies, goodies or other motivations (wine and beer ... ) 
 OPAL-X> to the OPAL developers 
 OPAL-X> 
-OPAL-X> Time: 07:38:44 date: 02/03/2026
+OPAL-X> Time: 13:12:53 date: 02/03/2026
 OPAL-X> 
 OPAL-X> * Host:   OpenMP
 OPAL-X> * Device: OpenMP
@@ -189,7 +189,7 @@ OPAL-X> * Creating new file for data: 'data/Drift-4-open-bins_ElementPositions.s
 ParallelTracker::execute> Orbit threader execution done.
 ParallelTracker::execute> Set time view of particle bunch.
 ParallelTracker::execute> Reset bunch time to 0.
-ParallelTracker::execute> * Track start at: 07:38:44, t= 0.000 [fs]; zstart at: 0.000 [um]
+ParallelTracker::execute> * Track start at: 13:12:53, t= 0.000 [fs]; zstart at: 0.000 [um]
 ParallelTracker::execute> * Executing ParallelTracker
 ParallelTracker::execute> * Initial dt = 100.000 [ps]
 ParallelTracker::execute> * Max integration steps = 200, next step = 0
@@ -283,7 +283,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 100.000 [ps].
 ParallelTracker::execute> Updated reference particle at step 0.
 ParallelTracker::execute> Updated path length to 0.00584366.
-OPAL-X> * 07:38:44 Step      0 at 5.844 [mm], t= 100.000 [ps], E=1.920 [GeV]
+OPAL-X> * 13:12:53 Step      0 at 5.844 [mm], t= 100.000 [ps], E=1.920 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -369,7 +369,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 200.000 [ps].
 ParallelTracker::execute> Updated reference particle at step 1.
 ParallelTracker::execute> Updated path length to 0.0116873.
-OPAL-X> * 07:38:44 Step      1 at 11.687 [mm], t= 200.000 [ps], E=1.937 [GeV]
+OPAL-X> * 13:12:53 Step      1 at 11.687 [mm], t= 200.000 [ps], E=1.937 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -455,7 +455,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 300.000 [ps].
 ParallelTracker::execute> Updated reference particle at step 2.
 ParallelTracker::execute> Updated path length to 0.017531.
-OPAL-X> * 07:38:44 Step      2 at 17.531 [mm], t= 300.000 [ps], E=1.957 [GeV]
+OPAL-X> * 13:12:53 Step      2 at 17.531 [mm], t= 300.000 [ps], E=1.957 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -541,7 +541,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 400.000 [ps].
 ParallelTracker::execute> Updated reference particle at step 3.
 ParallelTracker::execute> Updated path length to 0.0233747.
-OPAL-X> * 07:38:44 Step      3 at 23.375 [mm], t= 400.000 [ps], E=1.980 [GeV]
+OPAL-X> * 13:12:53 Step      3 at 23.375 [mm], t= 400.000 [ps], E=1.980 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -627,7 +627,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 500.000 [ps].
 ParallelTracker::execute> Updated reference particle at step 4.
 ParallelTracker::execute> Updated path length to 0.0292183.
-OPAL-X> * 07:38:44 Step      4 at 29.218 [mm], t= 500.000 [ps], E=2.007 [GeV]
+OPAL-X> * 13:12:53 Step      4 at 29.218 [mm], t= 500.000 [ps], E=2.007 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -713,7 +713,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 600.000 [ps].
 ParallelTracker::execute> Updated reference particle at step 5.
 ParallelTracker::execute> Updated path length to 0.035062.
-OPAL-X> * 07:38:44 Step      5 at 35.062 [mm], t= 600.000 [ps], E=2.039 [GeV]
+OPAL-X> * 13:12:53 Step      5 at 35.062 [mm], t= 600.000 [ps], E=2.039 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -799,7 +799,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 700.000 [ps].
 ParallelTracker::execute> Updated reference particle at step 6.
 ParallelTracker::execute> Updated path length to 0.0409056.
-OPAL-X> * 07:38:44 Step      6 at 40.906 [mm], t= 700.000 [ps], E=2.077 [GeV]
+OPAL-X> * 13:12:53 Step      6 at 40.906 [mm], t= 700.000 [ps], E=2.077 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -885,7 +885,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 800.000 [ps].
 ParallelTracker::execute> Updated reference particle at step 7.
 ParallelTracker::execute> Updated path length to 0.0467493.
-OPAL-X> * 07:38:44 Step      7 at 46.749 [mm], t= 800.000 [ps], E=2.123 [GeV]
+OPAL-X> * 13:12:53 Step      7 at 46.749 [mm], t= 800.000 [ps], E=2.123 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -971,7 +971,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 900.000 [ps].
 ParallelTracker::execute> Updated reference particle at step 8.
 ParallelTracker::execute> Updated path length to 0.052593.
-OPAL-X> * 07:38:44 Step      8 at 52.593 [mm], t= 900.000 [ps], E=2.176 [GeV]
+OPAL-X> * 13:12:53 Step      8 at 52.593 [mm], t= 900.000 [ps], E=2.176 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1057,7 +1057,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 1.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 9.
 ParallelTracker::execute> Updated path length to 0.0584366.
-OPAL-X> * 07:38:44 Step      9 at 58.437 [mm], t= 1.000 [ns], E=2.239 [GeV]
+OPAL-X> * 13:12:53 Step      9 at 58.437 [mm], t= 1.000 [ns], E=2.239 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1150,7 +1150,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 1.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 10.
 ParallelTracker::execute> Updated path length to 0.0642803.
-OPAL-X> * 07:38:44 Step     10 at 64.280 [mm], t= 1.100 [ns], E=2.312 [GeV]
+OPAL-X> * 13:12:53 Step     10 at 64.280 [mm], t= 1.100 [ns], E=2.312 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1236,7 +1236,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 1.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 11.
 ParallelTracker::execute> Updated path length to 0.070124.
-OPAL-X> * 07:38:44 Step     11 at 70.124 [mm], t= 1.200 [ns], E=2.396 [GeV]
+OPAL-X> * 13:12:53 Step     11 at 70.124 [mm], t= 1.200 [ns], E=2.396 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1322,7 +1322,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 1.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 12.
 ParallelTracker::execute> Updated path length to 0.0759676.
-OPAL-X> * 07:38:45 Step     12 at 75.968 [mm], t= 1.300 [ns], E=2.494 [GeV]
+OPAL-X> * 13:12:53 Step     12 at 75.968 [mm], t= 1.300 [ns], E=2.494 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1408,7 +1408,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 1.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 13.
 ParallelTracker::execute> Updated path length to 0.0818113.
-OPAL-X> * 07:38:45 Step     13 at 81.811 [mm], t= 1.400 [ns], E=2.607 [GeV]
+OPAL-X> * 13:12:53 Step     13 at 81.811 [mm], t= 1.400 [ns], E=2.607 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1494,7 +1494,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 1.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 14.
 ParallelTracker::execute> Updated path length to 0.0876549.
-OPAL-X> * 07:38:45 Step     14 at 87.655 [mm], t= 1.500 [ns], E=2.736 [GeV]
+OPAL-X> * 13:12:53 Step     14 at 87.655 [mm], t= 1.500 [ns], E=2.736 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1580,7 +1580,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 1.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 15.
 ParallelTracker::execute> Updated path length to 0.0934986.
-OPAL-X> * 07:38:45 Step     15 at 93.499 [mm], t= 1.600 [ns], E=2.885 [GeV]
+OPAL-X> * 13:12:53 Step     15 at 93.499 [mm], t= 1.600 [ns], E=2.885 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1666,7 +1666,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 1.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 16.
 ParallelTracker::execute> Updated path length to 0.0993423.
-OPAL-X> * 07:38:45 Step     16 at 99.342 [mm], t= 1.700 [ns], E=3.055 [GeV]
+OPAL-X> * 13:12:53 Step     16 at 99.342 [mm], t= 1.700 [ns], E=3.055 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1752,7 +1752,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 1.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 17.
 ParallelTracker::execute> Updated path length to 0.105186.
-OPAL-X> * 07:38:45 Step     17 at 105.186 [mm], t= 1.800 [ns], E=3.248 [GeV]
+OPAL-X> * 13:12:53 Step     17 at 105.186 [mm], t= 1.800 [ns], E=3.248 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1838,7 +1838,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 1.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 18.
 ParallelTracker::execute> Updated path length to 0.11103.
-OPAL-X> * 07:38:45 Step     18 at 111.030 [mm], t= 1.900 [ns], E=3.467 [GeV]
+OPAL-X> * 13:12:53 Step     18 at 111.030 [mm], t= 1.900 [ns], E=3.467 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -1924,7 +1924,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 2.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 19.
 ParallelTracker::execute> Updated path length to 0.116873.
-OPAL-X> * 07:38:45 Step     19 at 116.873 [mm], t= 2.000 [ns], E=3.716 [GeV]
+OPAL-X> * 13:12:53 Step     19 at 116.873 [mm], t= 2.000 [ns], E=3.716 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2017,7 +2017,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 2.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 20.
 ParallelTracker::execute> Updated path length to 0.122717.
-OPAL-X> * 07:38:45 Step     20 at 122.717 [mm], t= 2.100 [ns], E=3.995 [GeV]
+OPAL-X> * 13:12:54 Step     20 at 122.717 [mm], t= 2.100 [ns], E=3.995 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2103,7 +2103,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 2.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 21.
 ParallelTracker::execute> Updated path length to 0.128561.
-OPAL-X> * 07:38:45 Step     21 at 128.561 [mm], t= 2.200 [ns], E=4.308 [GeV]
+OPAL-X> * 13:12:54 Step     21 at 128.561 [mm], t= 2.200 [ns], E=4.308 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2189,7 +2189,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 2.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 22.
 ParallelTracker::execute> Updated path length to 0.134404.
-OPAL-X> * 07:38:45 Step     22 at 134.404 [mm], t= 2.300 [ns], E=4.659 [GeV]
+OPAL-X> * 13:12:54 Step     22 at 134.404 [mm], t= 2.300 [ns], E=4.659 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2275,7 +2275,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 2.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 23.
 ParallelTracker::execute> Updated path length to 0.140248.
-OPAL-X> * 07:38:45 Step     23 at 140.248 [mm], t= 2.400 [ns], E=5.050 [GeV]
+OPAL-X> * 13:12:54 Step     23 at 140.248 [mm], t= 2.400 [ns], E=5.050 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2361,7 +2361,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 2.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 24.
 ParallelTracker::execute> Updated path length to 0.146092.
-OPAL-X> * 07:38:45 Step     24 at 146.092 [mm], t= 2.500 [ns], E=5.486 [GeV]
+OPAL-X> * 13:12:54 Step     24 at 146.092 [mm], t= 2.500 [ns], E=5.486 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2447,7 +2447,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 2.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 25.
 ParallelTracker::execute> Updated path length to 0.151935.
-OPAL-X> * 07:38:45 Step     25 at 151.935 [mm], t= 2.600 [ns], E=5.967 [GeV]
+OPAL-X> * 13:12:54 Step     25 at 151.935 [mm], t= 2.600 [ns], E=5.967 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2533,7 +2533,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 2.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 26.
 ParallelTracker::execute> Updated path length to 0.157779.
-OPAL-X> * 07:38:45 Step     26 at 157.779 [mm], t= 2.700 [ns], E=6.500 [GeV]
+OPAL-X> * 13:12:54 Step     26 at 157.779 [mm], t= 2.700 [ns], E=6.500 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2619,7 +2619,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 2.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 27.
 ParallelTracker::execute> Updated path length to 0.163623.
-OPAL-X> * 07:38:45 Step     27 at 163.623 [mm], t= 2.800 [ns], E=7.085 [GeV]
+OPAL-X> * 13:12:54 Step     27 at 163.623 [mm], t= 2.800 [ns], E=7.085 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2705,7 +2705,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 2.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 28.
 ParallelTracker::execute> Updated path length to 0.169466.
-OPAL-X> * 07:38:45 Step     28 at 169.466 [mm], t= 2.900 [ns], E=7.729 [GeV]
+OPAL-X> * 13:12:54 Step     28 at 169.466 [mm], t= 2.900 [ns], E=7.729 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2791,7 +2791,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 3.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 29.
 ParallelTracker::execute> Updated path length to 0.17531.
-OPAL-X> * 07:38:45 Step     29 at 175.310 [mm], t= 3.000 [ns], E=8.435 [GeV]
+OPAL-X> * 13:12:54 Step     29 at 175.310 [mm], t= 3.000 [ns], E=8.435 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2884,7 +2884,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 3.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 30.
 ParallelTracker::execute> Updated path length to 0.181154.
-OPAL-X> * 07:38:45 Step     30 at 181.154 [mm], t= 3.100 [ns], E=9.205 [GeV]
+OPAL-X> * 13:12:54 Step     30 at 181.154 [mm], t= 3.100 [ns], E=9.205 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -2970,7 +2970,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 3.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 31.
 ParallelTracker::execute> Updated path length to 0.186997.
-OPAL-X> * 07:38:45 Step     31 at 186.997 [mm], t= 3.200 [ns], E=10.044 [GeV]
+OPAL-X> * 13:12:54 Step     31 at 186.997 [mm], t= 3.200 [ns], E=10.044 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3056,7 +3056,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 3.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 32.
 ParallelTracker::execute> Updated path length to 0.192841.
-OPAL-X> * 07:38:45 Step     32 at 192.841 [mm], t= 3.300 [ns], E=10.953 [GeV]
+OPAL-X> * 13:12:54 Step     32 at 192.841 [mm], t= 3.300 [ns], E=10.953 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3142,7 +3142,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 3.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 33.
 ParallelTracker::execute> Updated path length to 0.198685.
-OPAL-X> * 07:38:45 Step     33 at 198.685 [mm], t= 3.400 [ns], E=11.935 [GeV]
+OPAL-X> * 13:12:54 Step     33 at 198.685 [mm], t= 3.400 [ns], E=11.935 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3228,7 +3228,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 3.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 34.
 ParallelTracker::execute> Updated path length to 0.204528.
-OPAL-X> * 07:38:45 Step     34 at 204.528 [mm], t= 3.500 [ns], E=12.995 [GeV]
+OPAL-X> * 13:12:54 Step     34 at 204.528 [mm], t= 3.500 [ns], E=12.995 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3314,7 +3314,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 3.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 35.
 ParallelTracker::execute> Updated path length to 0.210372.
-OPAL-X> * 07:38:45 Step     35 at 210.372 [mm], t= 3.600 [ns], E=14.136 [GeV]
+OPAL-X> * 13:12:54 Step     35 at 210.372 [mm], t= 3.600 [ns], E=14.136 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3400,7 +3400,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 3.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 36.
 ParallelTracker::execute> Updated path length to 0.216216.
-OPAL-X> * 07:38:46 Step     36 at 216.216 [mm], t= 3.700 [ns], E=15.360 [GeV]
+OPAL-X> * 13:12:54 Step     36 at 216.216 [mm], t= 3.700 [ns], E=15.360 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3486,7 +3486,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 3.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 37.
 ParallelTracker::execute> Updated path length to 0.222059.
-OPAL-X> * 07:38:46 Step     37 at 222.059 [mm], t= 3.800 [ns], E=16.672 [GeV]
+OPAL-X> * 13:12:54 Step     37 at 222.059 [mm], t= 3.800 [ns], E=16.672 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3572,7 +3572,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 3.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 38.
 ParallelTracker::execute> Updated path length to 0.227903.
-OPAL-X> * 07:38:46 Step     38 at 227.903 [mm], t= 3.900 [ns], E=18.073 [GeV]
+OPAL-X> * 13:12:54 Step     38 at 227.903 [mm], t= 3.900 [ns], E=18.073 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3658,7 +3658,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 4.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 39.
 ParallelTracker::execute> Updated path length to 0.233747.
-OPAL-X> * 07:38:46 Step     39 at 233.747 [mm], t= 4.000 [ns], E=19.564 [GeV]
+OPAL-X> * 13:12:54 Step     39 at 233.747 [mm], t= 4.000 [ns], E=19.564 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3751,7 +3751,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 4.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 40.
 ParallelTracker::execute> Updated path length to 0.23959.
-OPAL-X> * 07:38:46 Step     40 at 239.590 [mm], t= 4.100 [ns], E=21.149 [GeV]
+OPAL-X> * 13:12:54 Step     40 at 239.590 [mm], t= 4.100 [ns], E=21.149 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3837,7 +3837,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 4.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 41.
 ParallelTracker::execute> Updated path length to 0.245434.
-OPAL-X> * 07:38:46 Step     41 at 245.434 [mm], t= 4.200 [ns], E=22.830 [GeV]
+OPAL-X> * 13:12:54 Step     41 at 245.434 [mm], t= 4.200 [ns], E=22.830 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -3923,7 +3923,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 4.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 42.
 ParallelTracker::execute> Updated path length to 0.251278.
-OPAL-X> * 07:38:46 Step     42 at 251.278 [mm], t= 4.300 [ns], E=24.608 [GeV]
+OPAL-X> * 13:12:54 Step     42 at 251.278 [mm], t= 4.300 [ns], E=24.608 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4009,7 +4009,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 4.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 43.
 ParallelTracker::execute> Updated path length to 0.257936.
-OPAL-X> * 07:38:46 Step     43 at 257.936 [mm], t= 4.400 [ns], E=26.488 [GeV]
+OPAL-X> * 13:12:55 Step     43 at 257.936 [mm], t= 4.400 [ns], E=26.488 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4095,7 +4095,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 4.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 44.
 ParallelTracker::execute> Updated path length to 0.26619.
-OPAL-X> * 07:38:46 Step     44 at 266.190 [mm], t= 4.500 [ns], E=28.469 [GeV]
+OPAL-X> * 13:12:55 Step     44 at 266.190 [mm], t= 4.500 [ns], E=28.469 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4181,7 +4181,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 4.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 45.
 ParallelTracker::execute> Updated path length to 0.275968.
-OPAL-X> * 07:38:46 Step     45 at 275.968 [mm], t= 4.600 [ns], E=30.553 [GeV]
+OPAL-X> * 13:12:55 Step     45 at 275.968 [mm], t= 4.600 [ns], E=30.553 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4267,7 +4267,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 4.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 46.
 ParallelTracker::execute> Updated path length to 0.287188.
-OPAL-X> * 07:38:46 Step     46 at 287.188 [mm], t= 4.700 [ns], E=32.742 [GeV]
+OPAL-X> * 13:12:55 Step     46 at 287.188 [mm], t= 4.700 [ns], E=32.742 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4353,7 +4353,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 4.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 47.
 ParallelTracker::execute> Updated path length to 0.299767.
-OPAL-X> * 07:38:46 Step     47 at 299.767 [mm], t= 4.800 [ns], E=35.035 [GeV]
+OPAL-X> * 13:12:55 Step     47 at 299.767 [mm], t= 4.800 [ns], E=35.035 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4439,7 +4439,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 4.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 48.
 ParallelTracker::execute> Updated path length to 0.313617.
-OPAL-X> * 07:38:46 Step     48 at 313.617 [mm], t= 4.900 [ns], E=37.433 [GeV]
+OPAL-X> * 13:12:55 Step     48 at 313.617 [mm], t= 4.900 [ns], E=37.433 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4525,7 +4525,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 5.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 49.
 ParallelTracker::execute> Updated path length to 0.328649.
-OPAL-X> * 07:38:46 Step     49 at 328.649 [mm], t= 5.000 [ns], E=39.938 [GeV]
+OPAL-X> * 13:12:55 Step     49 at 328.649 [mm], t= 5.000 [ns], E=39.938 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4618,7 +4618,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 5.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 50.
 ParallelTracker::execute> Updated path length to 0.344776.
-OPAL-X> * 07:38:46 Step     50 at 344.776 [mm], t= 5.100 [ns], E=42.549 [GeV]
+OPAL-X> * 13:12:55 Step     50 at 344.776 [mm], t= 5.100 [ns], E=42.549 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4704,7 +4704,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 5.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 51.
 ParallelTracker::execute> Updated path length to 0.361915.
-OPAL-X> * 07:38:46 Step     51 at 361.915 [mm], t= 5.200 [ns], E=45.266 [GeV]
+OPAL-X> * 13:12:55 Step     51 at 361.915 [mm], t= 5.200 [ns], E=45.266 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4790,7 +4790,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 5.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 52.
 ParallelTracker::execute> Updated path length to 0.379986.
-OPAL-X> * 07:38:46 Step     52 at 379.986 [mm], t= 5.300 [ns], E=48.090 [GeV]
+OPAL-X> * 13:12:55 Step     52 at 379.986 [mm], t= 5.300 [ns], E=48.090 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4876,7 +4876,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 5.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 53.
 ParallelTracker::execute> Updated path length to 0.398914.
-OPAL-X> * 07:38:46 Step     53 at 398.914 [mm], t= 5.400 [ns], E=51.019 [GeV]
+OPAL-X> * 13:12:55 Step     53 at 398.914 [mm], t= 5.400 [ns], E=51.019 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -4962,7 +4962,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 5.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 54.
 ParallelTracker::execute> Updated path length to 0.418627.
-OPAL-X> * 07:38:46 Step     54 at 418.627 [mm], t= 5.500 [ns], E=54.052 [GeV]
+OPAL-X> * 13:12:55 Step     54 at 418.627 [mm], t= 5.500 [ns], E=54.052 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5048,7 +5048,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 5.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 55.
 ParallelTracker::execute> Updated path length to 0.43906.
-OPAL-X> * 07:38:46 Step     55 at 439.060 [mm], t= 5.600 [ns], E=57.187 [GeV]
+OPAL-X> * 13:12:55 Step     55 at 439.060 [mm], t= 5.600 [ns], E=57.187 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5134,7 +5134,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 5.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 56.
 ParallelTracker::execute> Updated path length to 0.460153.
-OPAL-X> * 07:38:46 Step     56 at 460.153 [mm], t= 5.700 [ns], E=60.423 [GeV]
+OPAL-X> * 13:12:55 Step     56 at 460.153 [mm], t= 5.700 [ns], E=60.423 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5220,7 +5220,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 5.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 57.
 ParallelTracker::execute> Updated path length to 0.48185.
-OPAL-X> * 07:38:46 Step     57 at 481.850 [mm], t= 5.800 [ns], E=63.759 [GeV]
+OPAL-X> * 13:12:55 Step     57 at 481.850 [mm], t= 5.800 [ns], E=63.759 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5306,7 +5306,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 5.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 58.
 ParallelTracker::execute> Updated path length to 0.5041.
-OPAL-X> * 07:38:47 Step     58 at 504.100 [mm], t= 5.900 [ns], E=67.192 [GeV]
+OPAL-X> * 13:12:55 Step     58 at 504.100 [mm], t= 5.900 [ns], E=67.192 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5392,7 +5392,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 6.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 59.
 ParallelTracker::execute> Updated path length to 0.526858.
-OPAL-X> * 07:38:47 Step     59 at 526.858 [mm], t= 6.000 [ns], E=70.721 [GeV]
+OPAL-X> * 13:12:55 Step     59 at 526.858 [mm], t= 6.000 [ns], E=70.721 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5485,7 +5485,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 6.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 60.
 ParallelTracker::execute> Updated path length to 0.55008.
-OPAL-X> * 07:38:47 Step     60 at 550.080 [mm], t= 6.100 [ns], E=74.343 [GeV]
+OPAL-X> * 13:12:55 Step     60 at 550.080 [mm], t= 6.100 [ns], E=74.343 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5571,7 +5571,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 6.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 61.
 ParallelTracker::execute> Updated path length to 0.573728.
-OPAL-X> * 07:38:47 Step     61 at 573.728 [mm], t= 6.200 [ns], E=78.057 [GeV]
+OPAL-X> * 13:12:55 Step     61 at 573.728 [mm], t= 6.200 [ns], E=78.057 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5657,7 +5657,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 6.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 62.
 ParallelTracker::execute> Updated path length to 0.597768.
-OPAL-X> * 07:38:47 Step     62 at 597.768 [mm], t= 6.300 [ns], E=81.860 [GeV]
+OPAL-X> * 13:12:55 Step     62 at 597.768 [mm], t= 6.300 [ns], E=81.860 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5743,7 +5743,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 6.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 63.
 ParallelTracker::execute> Updated path length to 0.622168.
-OPAL-X> * 07:38:47 Step     63 at 622.168 [mm], t= 6.400 [ns], E=85.749 [GeV]
+OPAL-X> * 13:12:55 Step     63 at 622.168 [mm], t= 6.400 [ns], E=85.749 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5829,7 +5829,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 6.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 64.
 ParallelTracker::execute> Updated path length to 0.646899.
-OPAL-X> * 07:38:47 Step     64 at 646.899 [mm], t= 6.500 [ns], E=89.722 [GeV]
+OPAL-X> * 13:12:55 Step     64 at 646.899 [mm], t= 6.500 [ns], E=89.722 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -5915,7 +5915,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 6.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 65.
 ParallelTracker::execute> Updated path length to 0.671935.
-OPAL-X> * 07:38:47 Step     65 at 671.935 [mm], t= 6.600 [ns], E=93.776 [GeV]
+OPAL-X> * 13:12:56 Step     65 at 671.935 [mm], t= 6.600 [ns], E=93.776 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6001,7 +6001,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 6.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 66.
 ParallelTracker::execute> Updated path length to 0.697253.
-OPAL-X> * 07:38:47 Step     66 at 697.253 [mm], t= 6.700 [ns], E=97.909 [GeV]
+OPAL-X> * 13:12:56 Step     66 at 697.253 [mm], t= 6.700 [ns], E=97.909 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6087,7 +6087,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 6.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 67.
 ParallelTracker::execute> Updated path length to 0.72283.
-OPAL-X> * 07:38:47 Step     67 at 722.830 [mm], t= 6.800 [ns], E=102.119 [GeV]
+OPAL-X> * 13:12:56 Step     67 at 722.830 [mm], t= 6.800 [ns], E=102.119 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6173,7 +6173,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 6.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 68.
 ParallelTracker::execute> Updated path length to 0.748647.
-OPAL-X> * 07:38:47 Step     68 at 748.647 [mm], t= 6.900 [ns], E=106.402 [GeV]
+OPAL-X> * 13:12:56 Step     68 at 748.647 [mm], t= 6.900 [ns], E=106.402 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6259,7 +6259,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 7.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 69.
 ParallelTracker::execute> Updated path length to 0.774687.
-OPAL-X> * 07:38:47 Step     69 at 774.687 [mm], t= 7.000 [ns], E=110.756 [GeV]
+OPAL-X> * 13:12:56 Step     69 at 774.687 [mm], t= 7.000 [ns], E=110.756 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6352,7 +6352,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 7.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 70.
 ParallelTracker::execute> Updated path length to 0.800933.
-OPAL-X> * 07:38:47 Step     70 at 800.933 [mm], t= 7.100 [ns], E=115.178 [GeV]
+OPAL-X> * 13:12:56 Step     70 at 800.933 [mm], t= 7.100 [ns], E=115.178 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6438,7 +6438,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 7.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 71.
 ParallelTracker::execute> Updated path length to 0.827371.
-OPAL-X> * 07:38:47 Step     71 at 827.371 [mm], t= 7.200 [ns], E=119.665 [GeV]
+OPAL-X> * 13:12:56 Step     71 at 827.371 [mm], t= 7.200 [ns], E=119.665 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6524,7 +6524,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 7.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 72.
 ParallelTracker::execute> Updated path length to 0.853986.
-OPAL-X> * 07:38:47 Step     72 at 853.986 [mm], t= 7.300 [ns], E=124.214 [GeV]
+OPAL-X> * 13:12:56 Step     72 at 853.986 [mm], t= 7.300 [ns], E=124.214 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6610,7 +6610,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 7.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 73.
 ParallelTracker::execute> Updated path length to 0.880766.
-OPAL-X> * 07:38:47 Step     73 at 880.766 [mm], t= 7.400 [ns], E=128.823 [GeV]
+OPAL-X> * 13:12:56 Step     73 at 880.766 [mm], t= 7.400 [ns], E=128.823 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6696,7 +6696,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 7.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 74.
 ParallelTracker::execute> Updated path length to 0.907701.
-OPAL-X> * 07:38:47 Step     74 at 907.701 [mm], t= 7.500 [ns], E=133.488 [GeV]
+OPAL-X> * 13:12:56 Step     74 at 907.701 [mm], t= 7.500 [ns], E=133.488 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6782,7 +6782,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 7.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 75.
 ParallelTracker::execute> Updated path length to 0.93478.
-OPAL-X> * 07:38:47 Step     75 at 934.780 [mm], t= 7.600 [ns], E=138.207 [GeV]
+OPAL-X> * 13:12:56 Step     75 at 934.780 [mm], t= 7.600 [ns], E=138.207 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6868,7 +6868,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 7.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 76.
 ParallelTracker::execute> Updated path length to 0.961993.
-OPAL-X> * 07:38:47 Step     76 at 961.993 [mm], t= 7.700 [ns], E=142.978 [GeV]
+OPAL-X> * 13:12:56 Step     76 at 961.993 [mm], t= 7.700 [ns], E=142.978 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -6954,7 +6954,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 7.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 77.
 ParallelTracker::execute> Updated path length to 0.989332.
-OPAL-X> * 07:38:47 Step     77 at 989.332 [mm], t= 7.800 [ns], E=147.798 [GeV]
+OPAL-X> * 13:12:56 Step     77 at 989.332 [mm], t= 7.800 [ns], E=147.798 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7040,7 +7040,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 7.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 78.
 ParallelTracker::execute> Updated path length to 1.01679.
-OPAL-X> * 07:38:47 Step     78 at 1.017 [m], t= 7.900 [ns], E=152.665 [GeV]
+OPAL-X> * 13:12:56 Step     78 at 1.017 [m], t= 7.900 [ns], E=152.665 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7126,7 +7126,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 8.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 79.
 ParallelTracker::execute> Updated path length to 1.04436.
-OPAL-X> * 07:38:47 Step     79 at 1.044 [m], t= 8.000 [ns], E=157.576 [GeV]
+OPAL-X> * 13:12:56 Step     79 at 1.044 [m], t= 8.000 [ns], E=157.576 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7219,7 +7219,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 8.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 80.
 ParallelTracker::execute> Updated path length to 1.07203.
-OPAL-X> * 07:38:47 Step     80 at 1.072 [m], t= 8.100 [ns], E=162.528 [GeV]
+OPAL-X> * 13:12:56 Step     80 at 1.072 [m], t= 8.100 [ns], E=162.528 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7305,7 +7305,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 8.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 81.
 ParallelTracker::execute> Updated path length to 1.09979.
-OPAL-X> * 07:38:48 Step     81 at 1.100 [m], t= 8.200 [ns], E=167.521 [GeV]
+OPAL-X> * 13:12:56 Step     81 at 1.100 [m], t= 8.200 [ns], E=167.521 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7391,7 +7391,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 8.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 82.
 ParallelTracker::execute> Updated path length to 1.12765.
-OPAL-X> * 07:38:48 Step     82 at 1.128 [m], t= 8.300 [ns], E=172.550 [GeV]
+OPAL-X> * 13:12:56 Step     82 at 1.128 [m], t= 8.300 [ns], E=172.550 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7477,7 +7477,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 8.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 83.
 ParallelTracker::execute> Updated path length to 1.1556.
-OPAL-X> * 07:38:48 Step     83 at 1.156 [m], t= 8.400 [ns], E=177.615 [GeV]
+OPAL-X> * 13:12:56 Step     83 at 1.156 [m], t= 8.400 [ns], E=177.615 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7563,7 +7563,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 8.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 84.
 ParallelTracker::execute> Updated path length to 1.18362.
-OPAL-X> * 07:38:48 Step     84 at 1.184 [m], t= 8.500 [ns], E=182.713 [GeV]
+OPAL-X> * 13:12:56 Step     84 at 1.184 [m], t= 8.500 [ns], E=182.713 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7649,7 +7649,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 8.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 85.
 ParallelTracker::execute> Updated path length to 1.21173.
-OPAL-X> * 07:38:48 Step     85 at 1.212 [m], t= 8.600 [ns], E=187.842 [GeV]
+OPAL-X> * 13:12:56 Step     85 at 1.212 [m], t= 8.600 [ns], E=187.842 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7735,7 +7735,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 8.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 86.
 ParallelTracker::execute> Updated path length to 1.2399.
-OPAL-X> * 07:38:48 Step     86 at 1.240 [m], t= 8.700 [ns], E=193.001 [GeV]
+OPAL-X> * 13:12:56 Step     86 at 1.240 [m], t= 8.700 [ns], E=193.001 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7821,7 +7821,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 8.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 87.
 ParallelTracker::execute> Updated path length to 1.26814.
-OPAL-X> * 07:38:48 Step     87 at 1.268 [m], t= 8.800 [ns], E=198.187 [GeV]
+OPAL-X> * 13:12:56 Step     87 at 1.268 [m], t= 8.800 [ns], E=198.187 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7907,7 +7907,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 8.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 88.
 ParallelTracker::execute> Updated path length to 1.29645.
-OPAL-X> * 07:38:48 Step     88 at 1.296 [m], t= 8.900 [ns], E=203.400 [GeV]
+OPAL-X> * 13:12:57 Step     88 at 1.296 [m], t= 8.900 [ns], E=203.400 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -7993,7 +7993,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 9.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 89.
 ParallelTracker::execute> Updated path length to 1.32482.
-OPAL-X> * 07:38:48 Step     89 at 1.325 [m], t= 9.000 [ns], E=208.637 [GeV]
+OPAL-X> * 13:12:57 Step     89 at 1.325 [m], t= 9.000 [ns], E=208.637 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8086,7 +8086,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 9.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 90.
 ParallelTracker::execute> Updated path length to 1.35325.
-OPAL-X> * 07:38:48 Step     90 at 1.353 [m], t= 9.100 [ns], E=213.897 [GeV]
+OPAL-X> * 13:12:57 Step     90 at 1.353 [m], t= 9.100 [ns], E=213.897 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8172,7 +8172,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 9.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 91.
 ParallelTracker::execute> Updated path length to 1.38173.
-OPAL-X> * 07:38:48 Step     91 at 1.382 [m], t= 9.200 [ns], E=219.179 [GeV]
+OPAL-X> * 13:12:57 Step     91 at 1.382 [m], t= 9.200 [ns], E=219.179 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8258,7 +8258,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 9.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 92.
 ParallelTracker::execute> Updated path length to 1.41026.
-OPAL-X> * 07:38:48 Step     92 at 1.410 [m], t= 9.300 [ns], E=224.481 [GeV]
+OPAL-X> * 13:12:57 Step     92 at 1.410 [m], t= 9.300 [ns], E=224.481 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8344,7 +8344,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 9.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 93.
 ParallelTracker::execute> Updated path length to 1.43884.
-OPAL-X> * 07:38:48 Step     93 at 1.439 [m], t= 9.400 [ns], E=229.803 [GeV]
+OPAL-X> * 13:12:57 Step     93 at 1.439 [m], t= 9.400 [ns], E=229.803 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8430,7 +8430,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 9.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 94.
 ParallelTracker::execute> Updated path length to 1.46747.
-OPAL-X> * 07:38:48 Step     94 at 1.467 [m], t= 9.500 [ns], E=235.143 [GeV]
+OPAL-X> * 13:12:57 Step     94 at 1.467 [m], t= 9.500 [ns], E=235.143 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8516,7 +8516,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 9.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 95.
 ParallelTracker::execute> Updated path length to 1.49615.
-OPAL-X> * 07:38:48 Step     95 at 1.496 [m], t= 9.600 [ns], E=240.500 [GeV]
+OPAL-X> * 13:12:57 Step     95 at 1.496 [m], t= 9.600 [ns], E=240.500 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8602,7 +8602,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 9.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 96.
 ParallelTracker::execute> Updated path length to 1.52487.
-OPAL-X> * 07:38:48 Step     96 at 1.525 [m], t= 9.700 [ns], E=245.872 [GeV]
+OPAL-X> * 13:12:57 Step     96 at 1.525 [m], t= 9.700 [ns], E=245.872 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8688,7 +8688,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 9.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 97.
 ParallelTracker::execute> Updated path length to 1.55363.
-OPAL-X> * 07:38:48 Step     97 at 1.554 [m], t= 9.800 [ns], E=251.259 [GeV]
+OPAL-X> * 13:12:57 Step     97 at 1.554 [m], t= 9.800 [ns], E=251.259 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8774,7 +8774,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 9.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 98.
 ParallelTracker::execute> Updated path length to 1.58242.
-OPAL-X> * 07:38:48 Step     98 at 1.582 [m], t= 9.900 [ns], E=256.659 [GeV]
+OPAL-X> * 13:12:57 Step     98 at 1.582 [m], t= 9.900 [ns], E=256.659 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8860,7 +8860,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 10.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 99.
 ParallelTracker::execute> Updated path length to 1.61126.
-OPAL-X> * 07:38:48 Step     99 at 1.611 [m], t= 10.000 [ns], E=262.073 [GeV]
+OPAL-X> * 13:12:57 Step     99 at 1.611 [m], t= 10.000 [ns], E=262.073 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -8953,7 +8953,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 10.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 100.
 ParallelTracker::execute> Updated path length to 1.64013.
-OPAL-X> * 07:38:48 Step    100 at 1.640 [m], t= 10.100 [ns], E=267.499 [GeV]
+OPAL-X> * 13:12:57 Step    100 at 1.640 [m], t= 10.100 [ns], E=267.499 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9039,7 +9039,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 10.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 101.
 ParallelTracker::execute> Updated path length to 1.66903.
-OPAL-X> * 07:38:48 Step    101 at 1.669 [m], t= 10.200 [ns], E=272.936 [GeV]
+OPAL-X> * 13:12:57 Step    101 at 1.669 [m], t= 10.200 [ns], E=272.936 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9125,7 +9125,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 10.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 102.
 ParallelTracker::execute> Updated path length to 1.69796.
-OPAL-X> * 07:38:48 Step    102 at 1.698 [m], t= 10.300 [ns], E=278.384 [GeV]
+OPAL-X> * 13:12:57 Step    102 at 1.698 [m], t= 10.300 [ns], E=278.384 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9211,7 +9211,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 10.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 103.
 ParallelTracker::execute> Updated path length to 1.72693.
-OPAL-X> * 07:38:48 Step    103 at 1.727 [m], t= 10.400 [ns], E=283.842 [GeV]
+OPAL-X> * 13:12:57 Step    103 at 1.727 [m], t= 10.400 [ns], E=283.842 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9297,7 +9297,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 10.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 104.
 ParallelTracker::execute> Updated path length to 1.75592.
-OPAL-X> * 07:38:49 Step    104 at 1.756 [m], t= 10.500 [ns], E=289.310 [GeV]
+OPAL-X> * 13:12:57 Step    104 at 1.756 [m], t= 10.500 [ns], E=289.310 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9383,7 +9383,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 10.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 105.
 ParallelTracker::execute> Updated path length to 1.78495.
-OPAL-X> * 07:38:49 Step    105 at 1.785 [m], t= 10.600 [ns], E=294.787 [GeV]
+OPAL-X> * 13:12:57 Step    105 at 1.785 [m], t= 10.600 [ns], E=294.787 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9469,7 +9469,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 10.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 106.
 ParallelTracker::execute> Updated path length to 1.814.
-OPAL-X> * 07:38:49 Step    106 at 1.814 [m], t= 10.700 [ns], E=300.272 [GeV]
+OPAL-X> * 13:12:57 Step    106 at 1.814 [m], t= 10.700 [ns], E=300.272 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9555,7 +9555,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 10.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 107.
 ParallelTracker::execute> Updated path length to 1.84308.
-OPAL-X> * 07:38:49 Step    107 at 1.843 [m], t= 10.800 [ns], E=305.765 [GeV]
+OPAL-X> * 13:12:57 Step    107 at 1.843 [m], t= 10.800 [ns], E=305.765 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9641,7 +9641,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 10.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 108.
 ParallelTracker::execute> Updated path length to 1.87218.
-OPAL-X> * 07:38:49 Step    108 at 1.872 [m], t= 10.900 [ns], E=311.265 [GeV]
+OPAL-X> * 13:12:57 Step    108 at 1.872 [m], t= 10.900 [ns], E=311.265 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9727,7 +9727,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 11.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 109.
 ParallelTracker::execute> Updated path length to 1.9013.
-OPAL-X> * 07:38:49 Step    109 at 1.901 [m], t= 11.000 [ns], E=316.773 [GeV]
+OPAL-X> * 13:12:57 Step    109 at 1.901 [m], t= 11.000 [ns], E=316.773 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9820,7 +9820,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 11.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 110.
 ParallelTracker::execute> Updated path length to 1.93045.
-OPAL-X> * 07:38:49 Step    110 at 1.930 [m], t= 11.100 [ns], E=322.287 [GeV]
+OPAL-X> * 13:12:57 Step    110 at 1.930 [m], t= 11.100 [ns], E=322.287 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9906,7 +9906,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 11.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 111.
 ParallelTracker::execute> Updated path length to 1.95962.
-OPAL-X> * 07:38:49 Step    111 at 1.960 [m], t= 11.200 [ns], E=327.808 [GeV]
+OPAL-X> * 13:12:58 Step    111 at 1.960 [m], t= 11.200 [ns], E=327.808 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -9992,7 +9992,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 11.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 112.
 ParallelTracker::execute> Updated path length to 1.98881.
-OPAL-X> * 07:38:49 Step    112 at 1.989 [m], t= 11.300 [ns], E=333.335 [GeV]
+OPAL-X> * 13:12:58 Step    112 at 1.989 [m], t= 11.300 [ns], E=333.335 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10078,7 +10078,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 11.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 113.
 ParallelTracker::execute> Updated path length to 2.01802.
-OPAL-X> * 07:38:49 Step    113 at 2.018 [m], t= 11.400 [ns], E=338.868 [GeV]
+OPAL-X> * 13:12:58 Step    113 at 2.018 [m], t= 11.400 [ns], E=338.868 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10164,7 +10164,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 11.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 114.
 ParallelTracker::execute> Updated path length to 2.04726.
-OPAL-X> * 07:38:49 Step    114 at 2.047 [m], t= 11.500 [ns], E=344.407 [GeV]
+OPAL-X> * 13:12:58 Step    114 at 2.047 [m], t= 11.500 [ns], E=344.407 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10250,7 +10250,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 11.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 115.
 ParallelTracker::execute> Updated path length to 2.07651.
-OPAL-X> * 07:38:49 Step    115 at 2.077 [m], t= 11.600 [ns], E=349.950 [GeV]
+OPAL-X> * 13:12:58 Step    115 at 2.077 [m], t= 11.600 [ns], E=349.950 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10336,7 +10336,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 11.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 116.
 ParallelTracker::execute> Updated path length to 2.10578.
-OPAL-X> * 07:38:49 Step    116 at 2.106 [m], t= 11.700 [ns], E=355.499 [GeV]
+OPAL-X> * 13:12:58 Step    116 at 2.106 [m], t= 11.700 [ns], E=355.499 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10422,7 +10422,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 11.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 117.
 ParallelTracker::execute> Updated path length to 2.13506.
-OPAL-X> * 07:38:49 Step    117 at 2.135 [m], t= 11.800 [ns], E=361.052 [GeV]
+OPAL-X> * 13:12:58 Step    117 at 2.135 [m], t= 11.800 [ns], E=361.052 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10508,7 +10508,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 11.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 118.
 ParallelTracker::execute> Updated path length to 2.16436.
-OPAL-X> * 07:38:49 Step    118 at 2.164 [m], t= 11.900 [ns], E=366.610 [GeV]
+OPAL-X> * 13:12:58 Step    118 at 2.164 [m], t= 11.900 [ns], E=366.610 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10594,7 +10594,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 12.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 119.
 ParallelTracker::execute> Updated path length to 2.19368.
-OPAL-X> * 07:38:49 Step    119 at 2.194 [m], t= 12.000 [ns], E=372.172 [GeV]
+OPAL-X> * 13:12:58 Step    119 at 2.194 [m], t= 12.000 [ns], E=372.172 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10687,7 +10687,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 12.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 120.
 ParallelTracker::execute> Updated path length to 2.22302.
-OPAL-X> * 07:38:49 Step    120 at 2.223 [m], t= 12.100 [ns], E=377.738 [GeV]
+OPAL-X> * 13:12:58 Step    120 at 2.223 [m], t= 12.100 [ns], E=377.738 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10773,7 +10773,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 12.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 121.
 ParallelTracker::execute> Updated path length to 2.25237.
-OPAL-X> * 07:38:49 Step    121 at 2.252 [m], t= 12.200 [ns], E=383.309 [GeV]
+OPAL-X> * 13:12:58 Step    121 at 2.252 [m], t= 12.200 [ns], E=383.309 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10859,7 +10859,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 12.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 122.
 ParallelTracker::execute> Updated path length to 2.28173.
-OPAL-X> * 07:38:49 Step    122 at 2.282 [m], t= 12.300 [ns], E=388.883 [GeV]
+OPAL-X> * 13:12:58 Step    122 at 2.282 [m], t= 12.300 [ns], E=388.883 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -10945,7 +10945,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 12.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 123.
 ParallelTracker::execute> Updated path length to 2.31111.
-OPAL-X> * 07:38:49 Step    123 at 2.311 [m], t= 12.400 [ns], E=394.461 [GeV]
+OPAL-X> * 13:12:58 Step    123 at 2.311 [m], t= 12.400 [ns], E=394.461 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11031,7 +11031,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 12.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 124.
 ParallelTracker::execute> Updated path length to 2.3405.
-OPAL-X> * 07:38:49 Step    124 at 2.341 [m], t= 12.500 [ns], E=400.042 [GeV]
+OPAL-X> * 13:12:58 Step    124 at 2.341 [m], t= 12.500 [ns], E=400.042 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11117,7 +11117,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 12.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 125.
 ParallelTracker::execute> Updated path length to 2.36991.
-OPAL-X> * 07:38:49 Step    125 at 2.370 [m], t= 12.600 [ns], E=405.627 [GeV]
+OPAL-X> * 13:12:58 Step    125 at 2.370 [m], t= 12.600 [ns], E=405.627 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11203,7 +11203,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 12.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 126.
 ParallelTracker::execute> Updated path length to 2.39933.
-OPAL-X> * 07:38:50 Step    126 at 2.399 [m], t= 12.700 [ns], E=411.214 [GeV]
+OPAL-X> * 13:12:58 Step    126 at 2.399 [m], t= 12.700 [ns], E=411.214 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11289,7 +11289,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 12.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 127.
 ParallelTracker::execute> Updated path length to 2.42876.
-OPAL-X> * 07:38:50 Step    127 at 2.429 [m], t= 12.800 [ns], E=416.805 [GeV]
+OPAL-X> * 13:12:58 Step    127 at 2.429 [m], t= 12.800 [ns], E=416.805 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11375,7 +11375,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 12.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 128.
 ParallelTracker::execute> Updated path length to 2.4582.
-OPAL-X> * 07:38:50 Step    128 at 2.458 [m], t= 12.900 [ns], E=422.399 [GeV]
+OPAL-X> * 13:12:58 Step    128 at 2.458 [m], t= 12.900 [ns], E=422.399 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11461,7 +11461,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 13.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 129.
 ParallelTracker::execute> Updated path length to 2.48766.
-OPAL-X> * 07:38:50 Step    129 at 2.488 [m], t= 13.000 [ns], E=427.996 [GeV]
+OPAL-X> * 13:12:58 Step    129 at 2.488 [m], t= 13.000 [ns], E=427.996 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11554,7 +11554,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 13.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 130.
 ParallelTracker::execute> Updated path length to 2.51712.
-OPAL-X> * 07:38:50 Step    130 at 2.517 [m], t= 13.100 [ns], E=433.596 [GeV]
+OPAL-X> * 13:12:58 Step    130 at 2.517 [m], t= 13.100 [ns], E=433.596 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11640,7 +11640,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 13.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 131.
 ParallelTracker::execute> Updated path length to 2.5466.
-OPAL-X> * 07:38:50 Step    131 at 2.547 [m], t= 13.200 [ns], E=439.198 [GeV]
+OPAL-X> * 13:12:58 Step    131 at 2.547 [m], t= 13.200 [ns], E=439.198 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11726,7 +11726,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 13.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 132.
 ParallelTracker::execute> Updated path length to 2.57609.
-OPAL-X> * 07:38:50 Step    132 at 2.576 [m], t= 13.300 [ns], E=444.803 [GeV]
+OPAL-X> * 13:12:58 Step    132 at 2.576 [m], t= 13.300 [ns], E=444.803 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11812,7 +11812,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 13.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 133.
 ParallelTracker::execute> Updated path length to 2.60558.
-OPAL-X> * 07:38:50 Step    133 at 2.606 [m], t= 13.400 [ns], E=450.410 [GeV]
+OPAL-X> * 13:12:58 Step    133 at 2.606 [m], t= 13.400 [ns], E=450.410 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11898,7 +11898,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 13.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 134.
 ParallelTracker::execute> Updated path length to 2.63509.
-OPAL-X> * 07:38:50 Step    134 at 2.635 [m], t= 13.500 [ns], E=456.019 [GeV]
+OPAL-X> * 13:12:59 Step    134 at 2.635 [m], t= 13.500 [ns], E=456.019 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -11984,7 +11984,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 13.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 135.
 ParallelTracker::execute> Updated path length to 2.66461.
-OPAL-X> * 07:38:50 Step    135 at 2.665 [m], t= 13.600 [ns], E=461.631 [GeV]
+OPAL-X> * 13:12:59 Step    135 at 2.665 [m], t= 13.600 [ns], E=461.631 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12070,7 +12070,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 13.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 136.
 ParallelTracker::execute> Updated path length to 2.69413.
-OPAL-X> * 07:38:50 Step    136 at 2.694 [m], t= 13.700 [ns], E=467.244 [GeV]
+OPAL-X> * 13:12:59 Step    136 at 2.694 [m], t= 13.700 [ns], E=467.244 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12156,7 +12156,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 13.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 137.
 ParallelTracker::execute> Updated path length to 2.72367.
-OPAL-X> * 07:38:50 Step    137 at 2.724 [m], t= 13.800 [ns], E=472.844 [GeV]
+OPAL-X> * 13:12:59 Step    137 at 2.724 [m], t= 13.800 [ns], E=472.844 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12242,7 +12242,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 13.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 138.
 ParallelTracker::execute> Updated path length to 2.75321.
-OPAL-X> * 07:38:50 Step    138 at 2.753 [m], t= 13.900 [ns], E=478.432 [GeV]
+OPAL-X> * 13:12:59 Step    138 at 2.753 [m], t= 13.900 [ns], E=478.432 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12328,7 +12328,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 14.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 139.
 ParallelTracker::execute> Updated path length to 2.78276.
-OPAL-X> * 07:38:50 Step    139 at 2.783 [m], t= 14.000 [ns], E=484.015 [GeV]
+OPAL-X> * 13:12:59 Step    139 at 2.783 [m], t= 14.000 [ns], E=484.015 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12421,7 +12421,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 14.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 140.
 ParallelTracker::execute> Updated path length to 2.81232.
-OPAL-X> * 07:38:50 Step    140 at 2.812 [m], t= 14.100 [ns], E=489.592 [GeV]
+OPAL-X> * 13:12:59 Step    140 at 2.812 [m], t= 14.100 [ns], E=489.592 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12507,7 +12507,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 14.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 141.
 ParallelTracker::execute> Updated path length to 2.84189.
-OPAL-X> * 07:38:50 Step    141 at 2.842 [m], t= 14.200 [ns], E=495.160 [GeV]
+OPAL-X> * 13:12:59 Step    141 at 2.842 [m], t= 14.200 [ns], E=495.160 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12593,7 +12593,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 14.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 142.
 ParallelTracker::execute> Updated path length to 2.87147.
-OPAL-X> * 07:38:50 Step    142 at 2.871 [m], t= 14.300 [ns], E=500.719 [GeV]
+OPAL-X> * 13:12:59 Step    142 at 2.871 [m], t= 14.300 [ns], E=500.719 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12679,7 +12679,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 14.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 143.
 ParallelTracker::execute> Updated path length to 2.90105.
-OPAL-X> * 07:38:50 Step    143 at 2.901 [m], t= 14.400 [ns], E=506.266 [GeV]
+OPAL-X> * 13:12:59 Step    143 at 2.901 [m], t= 14.400 [ns], E=506.266 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12765,7 +12765,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 14.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 144.
 ParallelTracker::execute> Updated path length to 2.93064.
-OPAL-X> * 07:38:50 Step    144 at 2.931 [m], t= 14.500 [ns], E=511.802 [GeV]
+OPAL-X> * 13:12:59 Step    144 at 2.931 [m], t= 14.500 [ns], E=511.802 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12851,7 +12851,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 14.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 145.
 ParallelTracker::execute> Updated path length to 2.96024.
-OPAL-X> * 07:38:50 Step    145 at 2.960 [m], t= 14.600 [ns], E=517.322 [GeV]
+OPAL-X> * 13:12:59 Step    145 at 2.960 [m], t= 14.600 [ns], E=517.322 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -12937,7 +12937,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 14.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 146.
 ParallelTracker::execute> Updated path length to 2.98984.
-OPAL-X> * 07:38:50 Step    146 at 2.990 [m], t= 14.700 [ns], E=522.829 [GeV]
+OPAL-X> * 13:12:59 Step    146 at 2.990 [m], t= 14.700 [ns], E=522.829 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13023,7 +13023,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 14.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 147.
 ParallelTracker::execute> Updated path length to 3.01946.
-OPAL-X> * 07:38:50 Step    147 at 3.019 [m], t= 14.800 [ns], E=528.319 [GeV]
+OPAL-X> * 13:12:59 Step    147 at 3.019 [m], t= 14.800 [ns], E=528.319 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13109,7 +13109,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 14.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 148.
 ParallelTracker::execute> Updated path length to 3.04908.
-OPAL-X> * 07:38:50 Step    148 at 3.049 [m], t= 14.900 [ns], E=533.792 [GeV]
+OPAL-X> * 13:12:59 Step    148 at 3.049 [m], t= 14.900 [ns], E=533.792 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13195,7 +13195,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 15.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 149.
 ParallelTracker::execute> Updated path length to 3.0787.
-OPAL-X> * 07:38:51 Step    149 at 3.079 [m], t= 15.000 [ns], E=539.245 [GeV]
+OPAL-X> * 13:12:59 Step    149 at 3.079 [m], t= 15.000 [ns], E=539.245 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13288,7 +13288,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 15.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 150.
 ParallelTracker::execute> Updated path length to 3.10833.
-OPAL-X> * 07:38:51 Step    150 at 3.108 [m], t= 15.100 [ns], E=544.672 [GeV]
+OPAL-X> * 13:12:59 Step    150 at 3.108 [m], t= 15.100 [ns], E=544.672 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13374,7 +13374,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 15.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 151.
 ParallelTracker::execute> Updated path length to 3.13797.
-OPAL-X> * 07:38:51 Step    151 at 3.138 [m], t= 15.200 [ns], E=550.069 [GeV]
+OPAL-X> * 13:12:59 Step    151 at 3.138 [m], t= 15.200 [ns], E=550.069 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13460,7 +13460,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 15.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 152.
 ParallelTracker::execute> Updated path length to 3.16761.
-OPAL-X> * 07:38:51 Step    152 at 3.168 [m], t= 15.300 [ns], E=555.434 [GeV]
+OPAL-X> * 13:12:59 Step    152 at 3.168 [m], t= 15.300 [ns], E=555.434 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13546,7 +13546,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 15.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 153.
 ParallelTracker::execute> Updated path length to 3.19726.
-OPAL-X> * 07:38:51 Step    153 at 3.197 [m], t= 15.400 [ns], E=560.762 [GeV]
+OPAL-X> * 13:12:59 Step    153 at 3.197 [m], t= 15.400 [ns], E=560.762 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13632,7 +13632,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 15.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 154.
 ParallelTracker::execute> Updated path length to 3.22692.
-OPAL-X> * 07:38:51 Step    154 at 3.227 [m], t= 15.500 [ns], E=566.051 [GeV]
+OPAL-X> * 13:12:59 Step    154 at 3.227 [m], t= 15.500 [ns], E=566.051 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13718,7 +13718,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 15.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 155.
 ParallelTracker::execute> Updated path length to 3.25658.
-OPAL-X> * 07:38:51 Step    155 at 3.257 [m], t= 15.600 [ns], E=571.299 [GeV]
+OPAL-X> * 13:12:59 Step    155 at 3.257 [m], t= 15.600 [ns], E=571.299 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13804,7 +13804,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 15.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 156.
 ParallelTracker::execute> Updated path length to 3.28624.
-OPAL-X> * 07:38:51 Step    156 at 3.286 [m], t= 15.700 [ns], E=576.496 [GeV]
+OPAL-X> * 13:13:00 Step    156 at 3.286 [m], t= 15.700 [ns], E=576.496 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13890,7 +13890,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 15.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 157.
 ParallelTracker::execute> Updated path length to 3.31591.
-OPAL-X> * 07:38:51 Step    157 at 3.316 [m], t= 15.800 [ns], E=581.637 [GeV]
+OPAL-X> * 13:13:00 Step    157 at 3.316 [m], t= 15.800 [ns], E=581.637 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -13976,7 +13976,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 15.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 158.
 ParallelTracker::execute> Updated path length to 3.34559.
-OPAL-X> * 07:38:51 Step    158 at 3.346 [m], t= 15.900 [ns], E=586.726 [GeV]
+OPAL-X> * 13:13:00 Step    158 at 3.346 [m], t= 15.900 [ns], E=586.726 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14062,7 +14062,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 16.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 159.
 ParallelTracker::execute> Updated path length to 3.37527.
-OPAL-X> * 07:38:51 Step    159 at 3.375 [m], t= 16.000 [ns], E=591.752 [GeV]
+OPAL-X> * 13:13:00 Step    159 at 3.375 [m], t= 16.000 [ns], E=591.752 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14155,7 +14155,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 16.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 160.
 ParallelTracker::execute> Updated path length to 3.40495.
-OPAL-X> * 07:38:51 Step    160 at 3.405 [m], t= 16.100 [ns], E=596.712 [GeV]
+OPAL-X> * 13:13:00 Step    160 at 3.405 [m], t= 16.100 [ns], E=596.712 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14241,7 +14241,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 16.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 161.
 ParallelTracker::execute> Updated path length to 3.43464.
-OPAL-X> * 07:38:51 Step    161 at 3.435 [m], t= 16.200 [ns], E=601.604 [GeV]
+OPAL-X> * 13:13:00 Step    161 at 3.435 [m], t= 16.200 [ns], E=601.604 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14327,7 +14327,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 16.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 162.
 ParallelTracker::execute> Updated path length to 3.46434.
-OPAL-X> * 07:38:51 Step    162 at 3.464 [m], t= 16.300 [ns], E=606.418 [GeV]
+OPAL-X> * 13:13:00 Step    162 at 3.464 [m], t= 16.300 [ns], E=606.418 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14413,7 +14413,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 16.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 163.
 ParallelTracker::execute> Updated path length to 3.49404.
-OPAL-X> * 07:38:51 Step    163 at 3.494 [m], t= 16.400 [ns], E=611.154 [GeV]
+OPAL-X> * 13:13:00 Step    163 at 3.494 [m], t= 16.400 [ns], E=611.154 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14499,7 +14499,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 16.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 164.
 ParallelTracker::execute> Updated path length to 3.52374.
-OPAL-X> * 07:38:51 Step    164 at 3.524 [m], t= 16.500 [ns], E=615.807 [GeV]
+OPAL-X> * 13:13:00 Step    164 at 3.524 [m], t= 16.500 [ns], E=615.807 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14585,7 +14585,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 16.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 165.
 ParallelTracker::execute> Updated path length to 3.55345.
-OPAL-X> * 07:38:51 Step    165 at 3.553 [m], t= 16.600 [ns], E=620.372 [GeV]
+OPAL-X> * 13:13:00 Step    165 at 3.553 [m], t= 16.600 [ns], E=620.372 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14671,7 +14671,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 16.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 166.
 ParallelTracker::execute> Updated path length to 3.58316.
-OPAL-X> * 07:38:51 Step    166 at 3.583 [m], t= 16.700 [ns], E=624.843 [GeV]
+OPAL-X> * 13:13:00 Step    166 at 3.583 [m], t= 16.700 [ns], E=624.843 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14757,7 +14757,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 16.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 167.
 ParallelTracker::execute> Updated path length to 3.61288.
-OPAL-X> * 07:38:51 Step    167 at 3.613 [m], t= 16.800 [ns], E=629.210 [GeV]
+OPAL-X> * 13:13:00 Step    167 at 3.613 [m], t= 16.800 [ns], E=629.210 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14843,7 +14843,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 16.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 168.
 ParallelTracker::execute> Updated path length to 3.6426.
-OPAL-X> * 07:38:51 Step    168 at 3.643 [m], t= 16.900 [ns], E=633.477 [GeV]
+OPAL-X> * 13:13:00 Step    168 at 3.643 [m], t= 16.900 [ns], E=633.477 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -14929,7 +14929,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 17.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 169.
 ParallelTracker::execute> Updated path length to 3.67232.
-OPAL-X> * 07:38:51 Step    169 at 3.672 [m], t= 17.000 [ns], E=637.636 [GeV]
+OPAL-X> * 13:13:00 Step    169 at 3.672 [m], t= 17.000 [ns], E=637.636 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15022,7 +15022,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 17.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 170.
 ParallelTracker::execute> Updated path length to 3.70205.
-OPAL-X> * 07:38:51 Step    170 at 3.702 [m], t= 17.100 [ns], E=641.696 [GeV]
+OPAL-X> * 13:13:00 Step    170 at 3.702 [m], t= 17.100 [ns], E=641.696 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15108,7 +15108,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 17.200 [ns].
 ParallelTracker::execute> Updated reference particle at step 171.
 ParallelTracker::execute> Updated path length to 3.73178.
-OPAL-X> * 07:38:52 Step    171 at 3.732 [m], t= 17.200 [ns], E=645.651 [GeV]
+OPAL-X> * 13:13:00 Step    171 at 3.732 [m], t= 17.200 [ns], E=645.651 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15194,7 +15194,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 17.300 [ns].
 ParallelTracker::execute> Updated reference particle at step 172.
 ParallelTracker::execute> Updated path length to 3.76152.
-OPAL-X> * 07:38:52 Step    172 at 3.762 [m], t= 17.300 [ns], E=649.486 [GeV]
+OPAL-X> * 13:13:00 Step    172 at 3.762 [m], t= 17.300 [ns], E=649.486 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15280,7 +15280,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 17.400 [ns].
 ParallelTracker::execute> Updated reference particle at step 173.
 ParallelTracker::execute> Updated path length to 3.79126.
-OPAL-X> * 07:38:52 Step    173 at 3.791 [m], t= 17.400 [ns], E=653.206 [GeV]
+OPAL-X> * 13:13:00 Step    173 at 3.791 [m], t= 17.400 [ns], E=653.206 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15366,7 +15366,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 17.500 [ns].
 ParallelTracker::execute> Updated reference particle at step 174.
 ParallelTracker::execute> Updated path length to 3.821.
-OPAL-X> * 07:38:52 Step    174 at 3.821 [m], t= 17.500 [ns], E=656.807 [GeV]
+OPAL-X> * 13:13:00 Step    174 at 3.821 [m], t= 17.500 [ns], E=656.807 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15452,7 +15452,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 17.600 [ns].
 ParallelTracker::execute> Updated reference particle at step 175.
 ParallelTracker::execute> Updated path length to 3.85075.
-OPAL-X> * 07:38:52 Step    175 at 3.851 [m], t= 17.600 [ns], E=660.287 [GeV]
+OPAL-X> * 13:13:00 Step    175 at 3.851 [m], t= 17.600 [ns], E=660.287 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15538,7 +15538,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 17.700 [ns].
 ParallelTracker::execute> Updated reference particle at step 176.
 ParallelTracker::execute> Updated path length to 3.8805.
-OPAL-X> * 07:38:52 Step    176 at 3.880 [m], t= 17.700 [ns], E=663.644 [GeV]
+OPAL-X> * 13:13:00 Step    176 at 3.880 [m], t= 17.700 [ns], E=663.644 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15624,7 +15624,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 17.800 [ns].
 ParallelTracker::execute> Updated reference particle at step 177.
 ParallelTracker::execute> Updated path length to 3.91025.
-OPAL-X> * 07:38:52 Step    177 at 3.910 [m], t= 17.800 [ns], E=666.883 [GeV]
+OPAL-X> * 13:13:00 Step    177 at 3.910 [m], t= 17.800 [ns], E=666.883 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15710,7 +15710,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 17.900 [ns].
 ParallelTracker::execute> Updated reference particle at step 178.
 ParallelTracker::execute> Updated path length to 3.94001.
-OPAL-X> * 07:38:52 Step    178 at 3.940 [m], t= 17.900 [ns], E=669.998 [GeV]
+OPAL-X> * 13:13:01 Step    178 at 3.940 [m], t= 17.900 [ns], E=669.998 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15796,7 +15796,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 18.000 [ns].
 ParallelTracker::execute> Updated reference particle at step 179.
 ParallelTracker::execute> Updated path length to 3.96977.
-OPAL-X> * 07:38:52 Step    179 at 3.970 [m], t= 18.000 [ns], E=672.992 [GeV]
+OPAL-X> * 13:13:01 Step    179 at 3.970 [m], t= 18.000 [ns], E=672.992 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15889,7 +15889,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 18.100 [ns].
 ParallelTracker::execute> Updated reference particle at step 180.
 ParallelTracker::execute> Updated path length to 3.99953.
-OPAL-X> * 07:38:52 Step    180 at 4.000 [m], t= 18.100 [ns], E=675.859 [GeV]
+OPAL-X> * 13:13:01 Step    180 at 4.000 [m], t= 18.100 [ns], E=675.859 [GeV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -15910,189 +15910,189 @@ OPAL-X> * Dump phase space of last step
 OPAL-X> * D1 gone off
 OPAL-X> * E1 gone off
 OPAL-X> 
-OPAL-X> * Done executing ParallelTracker at 07:38:52
+OPAL-X> * Done executing ParallelTracker at 13:13:01
 OPAL-X> 
 OPAL-X> * PartBunch Destructor: Finished time step: 0 time: 0.000000e+00
 OPAL-X> * End of input stream 'Drift-4-open-bins.in'
 Timings> ---------------------------------------------
 Timings>      Timing results for 1 nodes:
 Timings> ---------------------------------------------
-Timings> mainTimer........... Wall tot =    8.03752
+Timings> mainTimer........... Wall tot =    8.08864
 Timings> 
-Timings> gatherInfoPartBunch. Wall max = 9.6801e-05
-Timings>                      Wall avg = 9.6801e-05
-Timings>                      Wall min = 9.6801e-05
+Timings> gatherInfoPartBunch. Wall max = 9.9049e-05
+Timings>                      Wall avg = 9.9049e-05
+Timings>                      Wall min = 9.9049e-05
 Timings> 
-Timings> setSolver........... Wall max =  0.0201045
-Timings>                      Wall avg =  0.0201045
-Timings>                      Wall min =  0.0201045
+Timings> setSolver........... Wall max =  0.0225756
+Timings>                      Wall avg =  0.0225756
+Timings>                      Wall min =  0.0225756
 Timings> 
-Timings> Initialize.......... Wall max =   0.019699
-Timings>                      Wall avg =   0.019699
-Timings>                      Wall min =   0.019699
+Timings> Initialize.......... Wall max =  0.0220999
+Timings>                      Wall avg =  0.0220999
+Timings>                      Wall min =  0.0220999
 Timings> 
-Timings> Initialize: extra H. Wall max = 0.00186519
-Timings>                      Wall avg = 0.00186519
-Timings>                      Wall min = 0.00186519
+Timings> Initialize: extra H. Wall max = 0.00206013
+Timings>                      Wall avg = 0.00206013
+Timings>                      Wall min = 0.00206013
 Timings> 
-Timings> Warmup.............. Wall max = 0.00967712
-Timings>                      Wall avg = 0.00967712
-Timings>                      Wall min = 0.00967712
+Timings> Warmup.............. Wall max =  0.0109336
+Timings>                      Wall avg =  0.0109336
+Timings>                      Wall min =  0.0109336
 Timings> 
-Timings> Green Init.......... Wall max =  0.0053248
-Timings>                      Wall avg =  0.0053248
-Timings>                      Wall min =  0.0053248
+Timings> Green Init.......... Wall max = 0.00604413
+Timings>                      Wall avg = 0.00604413
+Timings>                      Wall min = 0.00604413
 Timings> 
-Timings> FFT: Green.......... Wall max =   0.794717
-Timings>                      Wall avg =   0.794717
-Timings>                      Wall min =   0.794717
+Timings> FFT: Green.......... Wall max =   0.809754
+Timings>                      Wall avg =   0.809754
+Timings>                      Wall min =   0.809754
 Timings> 
-Timings> bInitLimits......... Wall max =  0.0156165
-Timings>                      Wall avg =  0.0156165
-Timings>                      Wall min =  0.0156165
+Timings> bInitLimits......... Wall max =  0.0156207
+Timings>                      Wall avg =  0.0156207
+Timings>                      Wall min =  0.0156207
 Timings> 
-Timings> bAllReduceLimits.... Wall max = 0.000120736
-Timings>                      Wall avg = 0.000120736
-Timings>                      Wall min = 0.000120736
+Timings> bAllReduceLimits.... Wall max = 0.000116201
+Timings>                      Wall avg = 0.000116201
+Timings>                      Wall min = 0.000116201
 Timings> 
-Timings> bAllReduceGlobalHis. Wall max = 0.000100156
-Timings>                      Wall avg = 0.000100156
-Timings>                      Wall min = 0.000100156
+Timings> bAllReduceGlobalHis. Wall max = 0.000104991
+Timings>                      Wall avg = 0.000104991
+Timings>                      Wall min = 0.000104991
 Timings> 
-Timings> bAssignUniformBins.. Wall max =  0.0166839
-Timings>                      Wall avg =  0.0166839
-Timings>                      Wall min =  0.0166839
+Timings> bAssignUniformBins.. Wall max =  0.0167263
+Timings>                      Wall avg =  0.0167263
+Timings>                      Wall min =  0.0167263
 Timings> 
-Timings> bExecuteHistoReduct. Wall max =  0.0105416
-Timings>                      Wall avg =  0.0105416
-Timings>                      Wall min =  0.0105416
+Timings> bExecuteHistoReduct. Wall max =    0.01058
+Timings>                      Wall avg =    0.01058
+Timings>                      Wall min =    0.01058
 Timings> 
-Timings> bSortContainerByBin. Wall max =  0.0360246
-Timings>                      Wall avg =  0.0360246
-Timings>                      Wall min =  0.0360246
+Timings> bSortContainerByBin. Wall max =  0.0364393
+Timings>                      Wall avg =  0.0364393
+Timings>                      Wall min =  0.0364393
 Timings> 
 Timings> bVerifySorting...... Wall max =          0
 Timings>                      Wall avg =          0
 Timings>                      Wall min =          0
 Timings> 
-Timings> prerun.............. Wall max =  0.0237811
-Timings>                      Wall avg =  0.0237811
-Timings>                      Wall min =  0.0237811
+Timings> prerun.............. Wall max =  0.0259251
+Timings>                      Wall avg =  0.0259251
+Timings>                      Wall min =  0.0259251
 Timings> 
-Timings> Solve............... Wall max =    5.35109
-Timings>                      Wall avg =    5.35109
-Timings>                      Wall min =    5.35109
+Timings> Solve............... Wall max =    5.42985
+Timings>                      Wall avg =    5.42985
+Timings>                      Wall min =    5.42985
 Timings> 
-Timings> Solve: Physical to . Wall max = 0.00305428
-Timings>                      Wall avg = 0.00305428
-Timings>                      Wall min = 0.00305428
+Timings> Solve: Physical to . Wall max =   0.003301
+Timings>                      Wall avg =   0.003301
+Timings>                      Wall min =   0.003301
 Timings> 
-Timings> FFT: Rho............ Wall max =   0.850346
-Timings>                      Wall avg =   0.850346
-Timings>                      Wall min =   0.850346
+Timings> FFT: Rho............ Wall max =   0.870707
+Timings>                      Wall avg =   0.870707
+Timings>                      Wall min =   0.870707
 Timings> 
-Timings> FFT: Convolution.... Wall max =   0.795678
-Timings>                      Wall avg =   0.795678
-Timings>                      Wall min =   0.795678
+Timings> FFT: Convolution.... Wall max =   0.808104
+Timings>                      Wall avg =   0.808104
+Timings>                      Wall min =   0.808104
 Timings> 
-Timings> Solve: Double to ph. Wall max = 0.00493946
-Timings>                      Wall avg = 0.00493946
-Timings>                      Wall min = 0.00493946
+Timings> Solve: Double to ph. Wall max =  0.0050751
+Timings>                      Wall avg =  0.0050751
+Timings>                      Wall min =  0.0050751
 Timings> 
-Timings> Solve: Electric fie. Wall max =    2.61122
-Timings>                      Wall avg =    2.61122
-Timings>                      Wall min =    2.61122
+Timings> Solve: Electric fie. Wall max =    2.63427
+Timings>                      Wall avg =    2.63427
+Timings>                      Wall min =    2.63427
 Timings> 
-Timings> FFT: Efield......... Wall max =     2.3378
-Timings>                      Wall avg =     2.3378
-Timings>                      Wall min =     2.3378
+Timings> FFT: Efield......... Wall max =    2.35619
+Timings>                      Wall avg =    2.35619
+Timings>                      Wall min =    2.35619
 Timings> 
-Timings> Efield: double to p. Wall max =  0.0204222
-Timings>                      Wall avg =  0.0204222
-Timings>                      Wall min =  0.0204222
+Timings> Efield: double to p. Wall max =  0.0218827
+Timings>                      Wall avg =  0.0218827
+Timings>                      Wall min =  0.0218827
 Timings> 
-Timings> samplingTime........ Wall max = 0.00954203
-Timings>                      Wall avg = 0.00954203
-Timings>                      Wall min = 0.00954203
+Timings> samplingTime........ Wall max = 0.00968149
+Timings>                      Wall avg = 0.00968149
+Timings>                      Wall min = 0.00968149
 Timings> 
-Timings> SamplingTimer....... Wall max = 0.00952745
-Timings>                      Wall avg = 0.00952745
-Timings>                      Wall min = 0.00952745
+Timings> SamplingTimer....... Wall max = 0.00965962
+Timings>                      Wall avg = 0.00965962
+Timings>                      Wall min = 0.00965962
 Timings> 
-Timings> GenParticles........ Wall max = 0.00952802
-Timings>                      Wall avg = 0.00952802
-Timings>                      Wall min = 0.00952802
+Timings> GenParticles........ Wall max = 0.00966041
+Timings>                      Wall avg = 0.00966041
+Timings>                      Wall min = 0.00966041
 Timings> 
-Timings> particleBC.......... Wall max =  0.0640026
-Timings>                      Wall avg =  0.0640026
-Timings>                      Wall min =  0.0640026
+Timings> particleBC.......... Wall max =  0.0639667
+Timings>                      Wall avg =  0.0639667
+Timings>                      Wall min =  0.0639667
 Timings> 
 Timings> updateParticle...... Wall max =          0
 Timings>                      Wall avg =          0
 Timings>                      Wall min =          0
 Timings> 
-Timings> Write Stat.......... Wall max = 0.00757059
-Timings>                      Wall avg = 0.00757059
-Timings>                      Wall min = 0.00757059
+Timings> Write Stat.......... Wall max = 0.00803209
+Timings>                      Wall avg = 0.00803209
+Timings>                      Wall min = 0.00803209
 Timings> 
-Timings> Write H5-File....... Wall max =   0.162473
-Timings>                      Wall avg =   0.162473
-Timings>                      Wall min =   0.162473
+Timings> Write H5-File....... Wall max =   0.131016
+Timings>                      Wall avg =   0.131016
+Timings>                      Wall min =   0.131016
 Timings> 
-Timings> TIntegration1....... Wall max =   0.282394
-Timings>                      Wall avg =   0.282394
-Timings>                      Wall min =   0.282394
+Timings> TIntegration1....... Wall max =   0.283096
+Timings>                      Wall avg =   0.283096
+Timings>                      Wall min =   0.283096
 Timings> 
-Timings> TIntegration2....... Wall max =   0.316769
-Timings>                      Wall avg =   0.316769
-Timings>                      Wall min =   0.316769
+Timings> TIntegration2....... Wall max =   0.313287
+Timings>                      Wall avg =   0.313287
+Timings>                      Wall min =   0.313287
 Timings> 
-Timings> External field eval. Wall max =   0.138094
-Timings>                      Wall avg =   0.138094
-Timings>                      Wall min =   0.138094
+Timings> External field eval. Wall max =   0.138397
+Timings>                      Wall avg =   0.138397
+Timings>                      Wall min =   0.138397
 Timings> 
 Timings> Binaryrepart........ Wall max =          0
 Timings>                      Wall avg =          0
 Timings>                      Wall min =          0
 Timings> 
-Timings> OrbThreader......... Wall max = 0.00136383
-Timings>                      Wall avg = 0.00136383
-Timings>                      Wall min = 0.00136383
+Timings> OrbThreader......... Wall max = 0.00131662
+Timings>                      Wall avg = 0.00131662
+Timings>                      Wall min = 0.00131662
 Timings> 
-Timings> bTotalBinningT...... Wall max =   0.113464
-Timings>                      Wall avg =   0.113464
-Timings>                      Wall min =   0.113464
+Timings> bTotalBinningT...... Wall max =   0.114389
+Timings>                      Wall avg =   0.114389
+Timings>                      Wall min =   0.114389
 Timings> 
-Timings> bDeviceSyncronizati. Wall max = 0.000138562
-Timings>                      Wall avg = 0.000138562
-Timings>                      Wall min = 0.000138562
+Timings> bDeviceSyncronizati. Wall max = 0.00013526
+Timings>                      Wall avg = 0.00013526
+Timings>                      Wall min = 0.00013526
 Timings> 
-Timings> bHistogramInit...... Wall max = 0.00799091
-Timings>                      Wall avg = 0.00799091
-Timings>                      Wall min = 0.00799091
+Timings> bHistogramInit...... Wall max = 0.00802236
+Timings>                      Wall avg = 0.00802236
+Timings>                      Wall min = 0.00802236
 Timings> 
-Timings> bMergeBins.......... Wall max =  0.0119867
-Timings>                      Wall avg =  0.0119867
-Timings>                      Wall min =  0.0119867
+Timings> bMergeBins.......... Wall max =  0.0120273
+Timings>                      Wall avg =  0.0120273
+Timings>                      Wall min =  0.0120273
 Timings> 
-Timings> SolveTimer.......... Wall max =    5.98065
-Timings>                      Wall avg =    5.98065
-Timings>                      Wall min =    5.98065
+Timings> SolveTimer.......... Wall max =    6.06156
+Timings>                      Wall avg =    6.06156
+Timings>                      Wall min =    6.06156
 Timings> 
-Timings> scatter............. Wall max =   0.260701
-Timings>                      Wall avg =   0.260701
-Timings>                      Wall min =   0.260701
+Timings> scatter............. Wall max =   0.261861
+Timings>                      Wall avg =   0.261861
+Timings>                      Wall min =   0.261861
 Timings> 
-Timings> accumulateHalo...... Wall max = 2.7591e-05
-Timings>                      Wall avg = 2.7591e-05
-Timings>                      Wall min = 2.7591e-05
+Timings> accumulateHalo...... Wall max = 2.4611e-05
+Timings>                      Wall avg = 2.4611e-05
+Timings>                      Wall min = 2.4611e-05
 Timings> 
-Timings> fillHalo............ Wall max = 1.9811e-05
-Timings>                      Wall avg = 1.9811e-05
-Timings>                      Wall min = 1.9811e-05
+Timings> fillHalo............ Wall max = 2.1768e-05
+Timings>                      Wall avg = 2.1768e-05
+Timings>                      Wall min = 2.1768e-05
 Timings> 
-Timings> gather.............. Wall max =    0.12023
-Timings>                      Wall avg =    0.12023
-Timings>                      Wall min =    0.12023
+Timings> gather.............. Wall max =   0.119949
+Timings>                      Wall avg =   0.119949
+Timings>                      Wall min =   0.119949
 Timings> 
 Timings> ---------------------------------------------
