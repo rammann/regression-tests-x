@@ -1,6 +1,8 @@
 /*      Drinft-1.in
 	OPALX
-	Gaus test, 1 timestep, no solver
+	Sanity check of a simple Gaussian distribution without space charge and
+    velocity binning in a single drift step. Focuses on distribution
+    properties rather than multi-step tracking.
 */
 
 OPTION, PSDUMPFREQ      = 10;     // 6d data written every 10th time step (h5).

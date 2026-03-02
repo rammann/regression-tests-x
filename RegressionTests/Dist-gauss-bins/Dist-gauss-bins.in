@@ -1,7 +1,8 @@
-/*      Drift-1-bins.in
+/*      Dist-gauss-bins.in
 	OPALX
-    Tests that the program does not crash when binning is selected. 
-    Does not test any actual binning results.
+    Sanity check of a simple Gaussian distribution without space charge, but
+    with BINNING element in a single drift step. Focuses on distribution
+    properties rather than multi-step tracking.
 */
 
 OPTION, PSDUMPFREQ      = 10;     // 6d data written every 10th time step (h5).
@@ -11,7 +12,7 @@ OPTION, AUTOPHASE       = 4;     // Autophase is on, and phase of max energy
                                  // gain will be found automatically for cavities.
 OPTION, VERSION=10900;
 
-Title, string="Test simple Gaussian distribution with space charge";
+Title, string="Dist-gauss-bins: Gaussian distribution sanity check with velocity binning";
 
 Value,{OPALVERSION};
 
@@ -47,7 +48,7 @@ BINS1: BINNING,
     BINNINGBETA  = 1.6, 
     PARAMETER    = VELOCITYZ; // Could be "VELOCITYZ", "POSITIONZ", "PZ" or "GAMMAZ"
 
-FS1: Fieldsolver, TYPE=OPEN, BINS=BINS1,
+FS1: Fieldsolver, TYPE=NONE, BINS=BINS1,
     NX=N, 
     NY=N, 
     NZ=N,  

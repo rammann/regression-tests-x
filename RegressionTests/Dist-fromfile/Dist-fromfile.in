@@ -1,7 +1,8 @@
-/*      Drinft-1-fromfile.in
+/*      Dist-fromfile.in
 	OPALX
-	Fromfile distribution test, 1 timestep, no solver.
-    Compares rms to see if read in correctly.
+    Sanity check of a FROMFILE distribution in a single drift step with
+    no field solver. Compares beam moments to verify that the distribution
+    is read in correctly.
 */
 
 OPTION, PSDUMPFREQ      = 10;     // 6d data written every 10th time step (h5).
@@ -11,7 +12,7 @@ OPTION, AUTOPHASE       = 4;     // Autophase is on, and phase of max energy
                                  // gain will be found automatically for cavities.
 OPTION, VERSION=10900;
 
-Title, string="Test simple Gaussian distribution with space charge";
+Title, string="Dist-fromfile: FROMFILE distribution read-in sanity check (no space charge)";
 
 Value,{OPALVERSION};
 

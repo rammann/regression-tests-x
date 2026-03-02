@@ -2,7 +2,7 @@ OPAL-X> configure done argc= 4
 OPAL-X>               ____  _____        _       __   __
 OPAL-X> 
 OPAL-X> This is OPAL-X (Object Oriented Parallel Accelerator Library) Version 1.0
-OPAL-X>             git rev. 08a2c33a137eb49769954b5723efecdd6e6a00d0
+OPAL-X>             git rev. 623313db0b6fb7e6646cbe284036a608e7c65c71
 OPAL-X> 
 OPAL-X> 
 OPAL-X>                      (c) PSI, http://amas.web.psi.ch
@@ -13,12 +13,12 @@ OPAL-X>
 OPAL-X> Please send cookies, goodies or other motivations (wine and beer ... ) 
 OPAL-X> to the OPAL developers 
 OPAL-X> 
-OPAL-X> Time: 17:04:36 date: 28/02/2026
+OPAL-X> Time: 13:32:02 date: 02/03/2026
 OPAL-X> 
 OPAL-X> * Host:   OpenMP
 OPAL-X> * Device: OpenMP
 OPAL-X> 
-OPAL-X> * Reading input stream 'Drift-1-fromfile.in'
+OPAL-X> * Reading input stream 'Dist-gauss-bins.in'
 OPAL-X> 
 OPAL-X> value: {OPALVERSION} = {10000}
 OPAL-X> 
@@ -29,9 +29,14 @@ OPAL-X> * Number of distributions  1
 OPAL-X> 
 OPAL-X> * ************* D I S T R I B U T I O N ********************************************
 OPAL-X> * 
-OPAL-X> * Distribution type: FROMFILE
+OPAL-X> * Distribution type: GAUSS
 OPAL-X> * 
-OPAL-X> * Filename: inputdistr.dat
+OPAL-X> * SIGMAX     = 0.001 [m]
+OPAL-X> * SIGMAY     = 0.001 [m]
+OPAL-X> * SIGMAZ     = 0.001 [m]
+OPAL-X> * SIGMAPX    = 1e-09 [Beta Gamma]
+OPAL-X> * SIGMAPY    = 1e-09 [Beta Gamma]
+OPAL-X> * SIGMAPZ    = 1e-09 [Beta Gamma]
 OPAL-X> * 
 OPAL-X> * Distribution is injected.
 OPAL-X> * 
@@ -39,8 +44,9 @@ OPAL-X> * **********************************************************************
 OPAL-X> 
 OPAL-X> * ************* F I E L D S O L V E R ********************************************** 
 OPAL-X> * FIELDSOLVER  FS1
+OPAL-X> * BINS         BINS1
 OPAL-X> * TYPE         NONE
-OPAL-X> * RANKS       1
+OPAL-X> * RANKS        1
 OPAL-X> * NX           32
 OPAL-X> * NY           32
 OPAL-X> * NZ           32
@@ -48,7 +54,16 @@ OPAL-X> * BBOXINCR     5
 OPAL-X> * GREENSF      STANDARD
 OPAL-X> * XDIM         parallel  
 OPAL-X> * YDIM         parallel  
-OPAL-X> * ZDIM      serial  
+OPAL-X> * ZDIM         serial  
+OPAL-X> * ********************************************************************************** 
+OPAL-X> 
+OPAL-X> * ************* B I N N I N G ****************************************************** 
+OPAL-X> * BINNING      BINS1
+OPAL-X> * MAXBINS      120
+OPAL-X> * DESIREDWIDTH 0.2
+OPAL-X> * BINNINGALPHA 1.1
+OPAL-X> * BINNINGBETA  1.6
+OPAL-X> * PARAMETER    VELOCITYZ
 OPAL-X> * ********************************************************************************** 
 OPAL-X> 
 OPAL-X> * ************* B E A M ************************************************************ 
@@ -58,25 +73,16 @@ OPAL-X> * REST MASS   0.000510999 [GeV]
 OPAL-X> * CHARGE      -e * 1 
 OPAL-X> * MOMENTUM    1010.94 [eV/c]
 OPAL-X> * MOMENTUM    1.01094e-06 [GeV/c]
-OPAL-X> * CURRENT     1.3e+06 [A]
+OPAL-X> * CURRENT     13000 [A]
 OPAL-X> * FREQUENCY   1.3e+09 [MHz]
-OPAL-X> * NPART       1000
+OPAL-X> * NPART       32768
 OPAL-X> * ********************************************************************************** 
 OPAL-X> 
-OPAL-X> * Macro charge per particle [eV]: -1e-12
-OPAL-X> * Macro mass per particle: [GeV/c^2] 3189.4
-OPAL-X> * Particles per macro particle: 6.24151e+06
+OPAL-X> * Macro charge per particle [eV]: -3.05176e-16
+OPAL-X> * Macro mass per particle: [GeV/c^2] 0.973329
+OPAL-X> * Particles per macro particle: 1904.76
 OPAL-X> PartBunch Constructor
 OPAL-X> * FieldContainer set to isAllPeriodic = 0
-AdaptBins> AdaptBins initialized with maxBins = 128, alpha = 1, beta = 1.5, desiredWidth = 0.1
-KOKKOS DEBUG> =====================================
-KOKKOS DEBUG>  Kokkos Debug Information (Rank 0)
-KOKKOS DEBUG> =====================================
-KOKKOS DEBUG> CPU Threads (OpenMP): 1
-KOKKOS DEBUG> CUDA: GPU support disabled.
-KOKKOS DEBUG> Default Execution Space Concurrency: 1
-KOKKOS DEBUG> Binning cost function parameters: alpha = 1, beta = 1.5, desiredWidth = 0.1
-KOKKOS DEBUG> =====================================
 PartBunch::setSolver> Initializing solver: NONE
 FieldContainer::initializeFields> Mesh spacing = ( 0.1875 , 0.1875 , 0.1875 )
 FieldContainer::initializeFields> Origin       = ( -3 , -3 , -3 )
@@ -92,6 +98,17 @@ FieldSolver::initSolverWithParams> Set solver RHS.
 FieldSolver::initSolverWithParams> Set solver LHS.
 PartBunch::setSolver> Field solver initialized.
 PartBunch::setSolver> Solver and Load Balancer set.
+PartBunch::setBins> Using binning command: BINS1
+AdaptBins> AdaptBins initialized with maxBins = 120, alpha = 1.1, beta = 1.6, desiredWidth = 0.2
+PartBunch::setBins> Bins set.
+KOKKOS DEBUG> =====================================
+KOKKOS DEBUG>  Kokkos Debug Information (Rank 0)
+KOKKOS DEBUG> =====================================
+KOKKOS DEBUG> CPU Threads (OpenMP): 2
+KOKKOS DEBUG> CUDA: GPU support disabled.
+KOKKOS DEBUG> Default Execution Space Concurrency: 2
+KOKKOS DEBUG> Binning cost function parameters: alpha = 1.1, beta = 1.6, desiredWidth = 0.2
+KOKKOS DEBUG> =====================================
 PartBunch::pre_run> PartBunch pre_run started.
 PartBunch::pre_run> Rho initialized to zero.
 FieldSolver::runSolver> Running solver with type: NONE. Force skip field dump: 1
@@ -100,49 +117,47 @@ PartBunch::pre_run> Call counter reset. pre_run done.
 OPAL-X> * PartBunch constructor done.
 OPAL-X> not implemented
 OPAL-X> * BCHandler<3>: [OPEN, OPEN, OPEN]
-OPAL-X> number_of_processors 14
+OPAL-X> number_of_processors 16
 OPAL-X> MPI_Comm_size 1
 OPAL-X> * About to create particles ...
-FromFile::generateParticles> FromFile: Loaded 1000 particles from file 'inputdistr.dat'
-FromFile::generateParticles> Rank 0: 1000 local particles
 OPAL-X> * Particle creation done
 PartBunch::bunchUpdate> Updating bunch and doing repartitioning if needed.
 PartBunch::bunchUpdate> Field Container updated with new mesh boundaries and spacing:
-PartBunch::bunchUpdate> 		> Mesh origin:   ( -0.00343409 , -0.00321927 , -0.00321927 )
-PartBunch::bunchUpdate> 		> Mesh spacing:  ( 0.000212808 , 0.000206278 , 0.000206278 )
+PartBunch::bunchUpdate> 		> Mesh origin:   ( -0.00329529 , -0.00328433 , -0.00328115 )
+PartBunch::bunchUpdate> 		> Mesh spacing:  ( 0.000205955 , 0.000205171 , 0.000205547 )
 PartBunch::bunchUpdate> 		> Box increment: 5%
 PartBunch::bunchUpdate> Particle container updated with new layout.
 PartBunch::bunchUpdate> Load balancer repartitioning done.
 PartBunch::bunchUpdate> Moments updated.
 OPAL-X> 
 OPAL-X> * ************** B U N C H ********************************************************* 
-OPAL-X> * PARTICLES       = 1000
-OPAL-X> * CHARGE          = -1.000000e-09 (Cb) 
+OPAL-X> * PARTICLES       = 32768
+OPAL-X> * CHARGE          = -1.000000e-11 (Cb) 
 OPAL-X> * INTEGRATOR      = LF2
-OPAL-X> * MIN R (origin)  = (     -3.12455 ,     -2.91923 ,     -2.91923 ) [mm]
-OPAL-X> * MAX R (max ext) = (      3.06622 ,      3.08159 ,      3.08159 ) [mm]
-OPAL-X> * RMS R           = (      1.17195 ,      1.15203 ,      1.15203 ) [mm]
-OPAL-X> * RMS P           = ( 2.772882e-02 , 2.772423e-02 , 2.757547e-02 ) [beta gamma]
-OPAL-X> * Mean R: ( 6.275661e-09 , 3.790925e-09 , 3.790925e-09 ) [m]
-OPAL-X> * Mean P: ( -8.305353e-12 , -6.519085e-12 , 1.978359e-03 ) [beta gamma]
-OPAL-X> * MESH SPACING    = (    212.80761 ,    206.27826 ,    206.27826 ) [um]
+OPAL-X> * MIN R (origin)  = (     -2.99572 ,     -2.98590 ,     -2.98217 ) [mm]
+OPAL-X> * MAX R (max ext) = (      2.99570 ,      2.98273 ,      2.99739 ) [mm]
+OPAL-X> * RMS R           = (    992.10021 ,    984.02935 ,    999.21486 ) [um]
+OPAL-X> * RMS P           = ( 9.978486e-10 , 1.000291e-09 , 1.003653e-09 ) [beta gamma]
+OPAL-X> * Mean R: ( 2.583450e-20 , 1.143494e-20 , -1.228198e-20 ) [m]
+OPAL-X> * Mean P: ( -7.598708e-12 , 3.152185e-12 , 1.978359e-03 ) [beta gamma]
+OPAL-X> * MESH SPACING    = (    205.95496 ,    205.17148 ,    205.54731 ) [um]
 OPAL-X> * COMPDOM INCR    = 5.000000e+00 (%) 
 OPAL-X> * FIELD LAYOUT    = Domain = {[0:31:1],[0:31:1],[0:31:1]}
 OPAL-X> Total number of boxes = 1
 OPAL-X>     Box 0 {[0:31:1],[0:31:1],[0:31:1]}
 OPAL-X> 
 OPAL-X> * Centroid : 
-OPAL-X> * 6.275661e-06 -8.305353e-09 3.790925e-06 -6.519085e-09 3.790925e-06 1.978359e+00 
+OPAL-X> * 8.465451e-16 -2.489945e-07 3.747003e-16 1.032908e-07 -4.024558e-16 6.482688e+01 
 OPAL-X> * Cov Matrix : 
-OPAL-X> * 1.373465e-06 2.995823e-05 2.669691e-08 3.592513e-07 2.669691e-08 1.306464e-07 
-OPAL-X> * 2.995823e-05 7.688873e-04 3.545471e-07 -5.537677e-06 3.545471e-07 -2.354842e-06 
-OPAL-X> * 2.669691e-08 3.545471e-07 1.327180e-06 2.987939e-05 1.327180e-06 -2.954473e-07 
-OPAL-X> * 3.592513e-07 -5.537677e-06 2.987939e-05 7.686329e-04 2.987939e-05 4.485872e-06 
-OPAL-X> * 2.669691e-08 3.545471e-07 1.327180e-06 2.987939e-05 1.327180e-06 -2.954473e-07 
-OPAL-X> * 1.306464e-07 -2.354842e-06 -2.954473e-07 4.485872e-06 -2.954473e-07 7.604063e-04 
+OPAL-X> * 9.842628e-07 4.358512e-15 -2.395982e-09 3.656247e-15 5.687779e-09 -1.223447e-14 
+OPAL-X> * 4.358512e-15 9.957019e-19 -2.923983e-15 -2.431892e-21 -4.130509e-15 -1.065720e-20 
+OPAL-X> * -2.395982e-09 -2.923983e-15 9.683138e-07 3.055302e-15 4.860467e-09 1.994036e-15 
+OPAL-X> * 3.656247e-15 -2.431892e-21 3.055302e-15 1.000581e-18 -7.242627e-15 -5.198089e-21 
+OPAL-X> * 5.687779e-09 -4.130509e-15 4.860467e-09 -7.242627e-15 9.984303e-07 -7.029973e-15 
+OPAL-X> * -1.223447e-14 -1.065720e-20 1.994036e-15 -5.198089e-21 -7.029973e-15 1.007319e-18 
 OPAL-X> * * ********************************************************************************** 
-OPAL-X> * Creating new file for data: 'Drift-1-fromfile.stat'
-OPAL-X> * Creating new file for data: 'Drift-1-fromfile.lbal'
+OPAL-X> * Creating new file for data: 'Dist-gauss-bins.stat'
+OPAL-X> * Creating new file for data: 'Dist-gauss-bins.lbal'
 ParallelTracker::execute> Initialized Boris pusher.
 ParallelTracker::execute> Selected minimum time step from configuration: 5e-11
 OPAL-X> * D1 gone live
@@ -153,26 +168,26 @@ ParallelTracker::execute>   rmin = ( -3 , -3 , -3 )
 ParallelTracker::execute>   rmax = ( 3 , 3 , 3 )
 ParallelTracker::execute> ParallelTrack: momentum = 0.00197836
 ParallelTracker::execute> itsBunch_m->RefPartR_m = ( 0 , 0 , 0 )
-ParallelTracker::execute> itsBunch_m->RefPartP_m = ( -8.30535e-12 , -6.51908e-12 , 0.00197836 )
+ParallelTracker::execute> itsBunch_m->RefPartP_m = ( -7.59871e-12 , 3.15219e-12 , 0.00197836 )
 OPAL-X> OrbitThreader dt_m= 5e-11
-OPAL-X> OrbitThreader maxDistance= 1.0003
+OPAL-X> OrbitThreader maxDistance= 10
 OPAL-X> OrbitThreader #elements  = 1
 OPAL-X> 
 OPAL-X> * Size of map 1 sections 
-OPAL-X> * Key: (0.000000 - 0.999990) number of overlapping elements 1
+OPAL-X> * Key: (0.000000 - 1.250009) number of overlapping elements 1
 OPAL-X> *                            D1
 OPAL-X> 
-OPAL-X> * Creating new file for data: 'data/Drift-1-fromfile_ElementPositions.sdds'
+OPAL-X> * Creating new file for data: 'data/Dist-gauss-bins_ElementPositions.sdds'
 ParallelTracker::execute> Orbit threader execution done.
 ParallelTracker::execute> Set time view of particle bunch.
 ParallelTracker::execute> Reset bunch time to 0.
-ParallelTracker::execute> * Track start at: 17:04:36, t= 0.000 [fs]; zstart at: 0.000 [um]
+ParallelTracker::execute> * Track start at: 13:32:02, t= 0.000 [fs]; zstart at: 0.000 [um]
 ParallelTracker::execute> * Executing ParallelTracker
 ParallelTracker::execute> * Initial dt = 50.000 [ps]
 ParallelTracker::execute> * Max integration steps = 1, next step = 0
 ParallelTracker::execute> 
 OPAL-X>                dt [ns]           zStop [m]        num Steps [1]
-OPAL-X> ->         5.000000e-11        1.000000e+00                   1
+OPAL-X> ->         5.000000e-11        1.250000e+00                   1
 PartBunch::performBunchSanityChecks> ========== Performing sanity checks on PartBunch... ==========
 PartBunch::performBunchSanityChecks> BC Handler initialized properly.
 PartBunch::performBunchSanityChecks> Field Solver object was initialized.
@@ -192,8 +207,8 @@ OPAL-X> * Switched to unitless positions.
 OPAL-X> * Switched to physical positions.
 PartBunch::bunchUpdate> Updating bunch and doing repartitioning if needed.
 PartBunch::bunchUpdate> Field Container updated with new mesh boundaries and spacing:
-PartBunch::bunchUpdate> 		> Mesh origin:   ( -0.00364213 , -0.00343325 , -0.00323467 )
-PartBunch::bunchUpdate> 		> Mesh spacing:  ( 0.00022433 , 0.000220788 , 0.000206818 )
+PartBunch::bunchUpdate> 		> Mesh origin:   ( -0.00329529 , -0.00328433 , -0.00326632 )
+PartBunch::bunchUpdate> 		> Mesh spacing:  ( 0.000205955 , 0.000205171 , 0.000205547 )
 PartBunch::bunchUpdate> 		> Box increment: 5%
 PartBunch::bunchUpdate> Particle container updated with new layout.
 PartBunch::bunchUpdate> Load balancer repartitioning done.
@@ -208,27 +223,29 @@ PartBunch::calcBeamParameters> Local min/max calculated.
 PartBunch::calcBeamParameters> Global min/max calculated.
 ParallelTracker::computeSpaceChargeFields> Calculate beam parameters done.
 ParallelTracker::computeSpaceChargeFields> Transform particle positions to beam coordinate system done.
-AdaptBins> Initialized limits. Min: 0.000130877, max: 0.061342, binWidth: 0.000478212
+AdaptBins> Initialized limits. Min: 0.00197835, max: 0.00197836, binWidth: 6.52604e-11
 AdaptBins> All bins assigned.
 AdaptBins> Using host-only parallel_reduce reduction.
 AdaptBins> Reducer ran without error.
 AdaptBins> Global histogram created.
-Histogram> Re-binned from 128 bins down to 2 bins. Total deviation cost = -0.00477636
+Histogram> Re-binned from 120 bins down to 1 bins. Total deviation cost = 0.064
 AdaptBins> Using host-only parallel_reduce reduction.
 AdaptBins> Reducer ran without error.
+bin_counts = np.array([32768])
+bin_widths = np.array([0.000000])
 PartBunch::computeSelfFields> Binning routine done.
 PartBunch::bunchUpdate> Updating bunch and doing repartitioning if needed.
 PartBunch::bunchUpdate> Field Container updated with new mesh boundaries and spacing:
-PartBunch::bunchUpdate> 		> Mesh origin:   ( -0.00364213 , -0.00343325 , -0.00323467 )
-PartBunch::bunchUpdate> 		> Mesh spacing:  ( 0.00022433 , 0.000220788 , 0.000206818 )
+PartBunch::bunchUpdate> 		> Mesh origin:   ( -0.00329529 , -0.00328433 , -0.00326632 )
+PartBunch::bunchUpdate> 		> Mesh spacing:  ( 0.000205955 , 0.000205171 , 0.000205547 )
 PartBunch::bunchUpdate> 		> Box increment: 5%
 PartBunch::bunchUpdate> Particle container updated with new layout.
 PartBunch::bunchUpdate> Load balancer repartitioning done.
 PartBunch::bunchUpdate> Moments updated.
 PartBunch::computeSelfFields> Scatter done.
 PartBunch::computeSelfFields> Rho scale by dt done.
-PartBunch::computeSelfFields> Rho normalized by cell volume: 1.02436e-11.
-PartBunch::computeSelfFields> Net-0 charge generation with factor -0.00396531 done.
+PartBunch::computeSelfFields> Rho normalized by cell volume: 8.68562e-12.
+PartBunch::computeSelfFields> Net-0 charge generation with factor -4.67657e-05 done.
 PartBunch::computeSelfFields> Rho coupling applied.
 FieldSolver::runSolver> Running solver with type: NONE. Force skip field dump: 0
 PartBunch::computeSelfFields> Field solver run.
@@ -246,8 +263,8 @@ OPAL-X> * Switched to unitless positions.
 OPAL-X> * Switched to physical positions.
 PartBunch::bunchUpdate> Updating bunch and doing repartitioning if needed.
 PartBunch::bunchUpdate> Field Container updated with new mesh boundaries and spacing:
-PartBunch::bunchUpdate> 		> Mesh origin:   ( -0.00385207 , -0.00367627 , -0.00325007 )
-PartBunch::bunchUpdate> 		> Mesh spacing:  ( 0.000237159 , 0.000236248 , 0.000207357 )
+PartBunch::bunchUpdate> 		> Mesh origin:   ( -0.00329529 , -0.00328433 , -0.00325149 )
+PartBunch::bunchUpdate> 		> Mesh spacing:  ( 0.000205955 , 0.000205171 , 0.000205547 )
 PartBunch::bunchUpdate> 		> Box increment: 5%
 PartBunch::bunchUpdate> Particle container updated with new layout.
 PartBunch::bunchUpdate> Load balancer repartitioning done.
@@ -259,7 +276,7 @@ ParallelTracker::execute> Selected new time step for next iteration, back_track 
 ParallelTracker::execute> Incremented bunch time to 50.000 [ps].
 ParallelTracker::execute> Updated reference particle at step 0.
 ParallelTracker::execute> Updated path length to 2.96548e-05.
-OPAL-X> * 17:04:36 Step      0 at 29.655 [um], t= 50.000 [ps], E=3.668 [GeV]
+OPAL-X> * 13:32:02 Step      0 at 29.655 [um], t= 50.000 [ps], E=1.905 [keV]
 PartBunch::calcBeamParameters> Moments updated.
 PartBunch::calcBeamParameters> Local moments calculated.
 PartBunch::calcBeamParameters> Global moments calculated.
@@ -278,133 +295,137 @@ OPAL-X> not implemented
 OPAL-X> * Dump phase space of last step
 OPAL-X> * D1 gone off
 OPAL-X> 
-OPAL-X> * Done executing ParallelTracker at 17:04:36
+OPAL-X> * Done executing ParallelTracker at 13:32:02
 OPAL-X> 
 OPAL-X> * PartBunch Destructor: Finished time step: 0 time: 0.000000e+00
-OPAL-X> * End of input stream 'Drift-1-fromfile.in'
+OPAL-X> * End of input stream 'Dist-gauss-bins.in'
 Timings> ---------------------------------------------
 Timings>      Timing results for 1 nodes:
 Timings> ---------------------------------------------
-Timings> mainTimer........... Wall tot =   0.201895
+Timings> mainTimer........... Wall tot =   0.256392
 Timings> 
-Timings> gatherInfoPartBunch. Wall max = 7.8219e-05
-Timings>                      Wall avg = 7.8219e-05
-Timings>                      Wall min = 7.8219e-05
+Timings> gatherInfoPartBunch. Wall max = 8.0376e-05
+Timings>                      Wall avg = 8.0376e-05
+Timings>                      Wall min = 8.0376e-05
 Timings> 
-Timings> bInitLimits......... Wall max =  3.322e-06
-Timings>                      Wall avg =  3.322e-06
-Timings>                      Wall min =  3.322e-06
+Timings> setSolver........... Wall max = 0.00033499
+Timings>                      Wall avg = 0.00033499
+Timings>                      Wall min = 0.00033499
 Timings> 
-Timings> bAllReduceLimits.... Wall max =   2.15e-07
-Timings>                      Wall avg =   2.15e-07
-Timings>                      Wall min =   2.15e-07
+Timings> bInitLimits......... Wall max = 8.0412e-05
+Timings>                      Wall avg = 8.0412e-05
+Timings>                      Wall min = 8.0412e-05
 Timings> 
-Timings> bAllReduceGlobalHis. Wall max =   3.09e-07
-Timings>                      Wall avg =   3.09e-07
-Timings>                      Wall min =   3.09e-07
+Timings> bAllReduceLimits.... Wall max =   4.86e-07
+Timings>                      Wall avg =   4.86e-07
+Timings>                      Wall min =   4.86e-07
 Timings> 
-Timings> bAssignUniformBins.. Wall max =  3.421e-06
-Timings>                      Wall avg =  3.421e-06
-Timings>                      Wall min =  3.421e-06
+Timings> bAllReduceGlobalHis. Wall max =   5.91e-07
+Timings>                      Wall avg =   5.91e-07
+Timings>                      Wall min =   5.91e-07
 Timings> 
-Timings> bExecuteHistoReduct. Wall max =  8.059e-06
-Timings>                      Wall avg =  8.059e-06
-Timings>                      Wall min =  8.059e-06
+Timings> bAssignUniformBins.. Wall max = 9.2402e-05
+Timings>                      Wall avg = 9.2402e-05
+Timings>                      Wall min = 9.2402e-05
 Timings> 
-Timings> bSortContainerByBin. Wall max =  6.415e-06
-Timings>                      Wall avg =  6.415e-06
-Timings>                      Wall min =  6.415e-06
+Timings> bExecuteHistoReduct. Wall max = 8.9373e-05
+Timings>                      Wall avg = 8.9373e-05
+Timings>                      Wall min = 8.9373e-05
+Timings> 
+Timings> bSortContainerByBin. Wall max = 0.000204638
+Timings>                      Wall avg = 0.000204638
+Timings>                      Wall min = 0.000204638
 Timings> 
 Timings> bVerifySorting...... Wall max =          0
 Timings>                      Wall avg =          0
 Timings>                      Wall min =          0
 Timings> 
-Timings> setSolver........... Wall max = 0.000430034
-Timings>                      Wall avg = 0.000430034
-Timings>                      Wall min = 0.000430034
+Timings> prerun.............. Wall max =  5.356e-05
+Timings>                      Wall avg =  5.356e-05
+Timings>                      Wall min =  5.356e-05
 Timings> 
-Timings> prerun.............. Wall max = 5.3151e-05
-Timings>                      Wall avg = 5.3151e-05
-Timings>                      Wall min = 5.3151e-05
+Timings> samplingTime........ Wall max = 0.00950191
+Timings>                      Wall avg = 0.00950191
+Timings>                      Wall min = 0.00950191
 Timings> 
-Timings> samplingTime........ Wall max = 0.00161298
-Timings>                      Wall avg = 0.00161298
-Timings>                      Wall min = 0.00161298
+Timings> SamplingTimer....... Wall max =  0.0094883
+Timings>                      Wall avg =  0.0094883
+Timings>                      Wall min =  0.0094883
 Timings> 
-Timings> GenParticles........ Wall max = 8.4978e-05
-Timings>                      Wall avg = 8.4978e-05
-Timings>                      Wall min = 8.4978e-05
+Timings> GenParticles........ Wall max = 0.00948897
+Timings>                      Wall avg = 0.00948897
+Timings>                      Wall min = 0.00948897
 Timings> 
-Timings> particleBC.......... Wall max = 1.2271e-05
-Timings>                      Wall avg = 1.2271e-05
-Timings>                      Wall min = 1.2271e-05
+Timings> particleBC.......... Wall max = 0.000472035
+Timings>                      Wall avg = 0.000472035
+Timings>                      Wall min = 0.000472035
 Timings> 
 Timings> updateParticle...... Wall max =          0
 Timings>                      Wall avg =          0
 Timings>                      Wall min =          0
 Timings> 
-Timings> Write Stat.......... Wall max = 0.000112316
-Timings>                      Wall avg = 0.000112316
-Timings>                      Wall min = 0.000112316
+Timings> Write Stat.......... Wall max = 0.000119473
+Timings>                      Wall avg = 0.000119473
+Timings>                      Wall min = 0.000119473
 Timings> 
-Timings> Write H5-File....... Wall max =  0.0106385
-Timings>                      Wall avg =  0.0106385
-Timings>                      Wall min =  0.0106385
+Timings> Write H5-File....... Wall max =   0.015801
+Timings>                      Wall avg =   0.015801
+Timings>                      Wall min =   0.015801
 Timings> 
-Timings> TIntegration1....... Wall max = 8.8597e-05
-Timings>                      Wall avg = 8.8597e-05
-Timings>                      Wall min = 8.8597e-05
+Timings> TIntegration1....... Wall max = 0.00145811
+Timings>                      Wall avg = 0.00145811
+Timings>                      Wall min = 0.00145811
 Timings> 
-Timings> TIntegration2....... Wall max = 9.4509e-05
-Timings>                      Wall avg = 9.4509e-05
-Timings>                      Wall min = 9.4509e-05
+Timings> TIntegration2....... Wall max = 0.00176015
+Timings>                      Wall avg = 0.00176015
+Timings>                      Wall min = 0.00176015
 Timings> 
-Timings> External field eval. Wall max = 4.8464e-05
-Timings>                      Wall avg = 4.8464e-05
-Timings>                      Wall min = 4.8464e-05
+Timings> External field eval. Wall max = 0.000380889
+Timings>                      Wall avg = 0.000380889
+Timings>                      Wall min = 0.000380889
 Timings> 
 Timings> Binaryrepart........ Wall max =          0
 Timings>                      Wall avg =          0
 Timings>                      Wall min =          0
 Timings> 
-Timings> OrbThreader......... Wall max =   0.173995
-Timings>                      Wall avg =   0.173995
-Timings>                      Wall min =   0.173995
+Timings> OrbThreader......... Wall max =   0.210414
+Timings>                      Wall avg =   0.210414
+Timings>                      Wall min =   0.210414
 Timings> 
-Timings> bTotalBinningT...... Wall max = 0.000147022
-Timings>                      Wall avg = 0.000147022
-Timings>                      Wall min = 0.000147022
+Timings> bTotalBinningT...... Wall max = 0.000660339
+Timings>                      Wall avg = 0.000660339
+Timings>                      Wall min = 0.000660339
 Timings> 
-Timings> bDeviceSyncronizati. Wall max =   5.43e-07
-Timings>                      Wall avg =   5.43e-07
-Timings>                      Wall min =   5.43e-07
+Timings> bDeviceSyncronizati. Wall max =   6.76e-07
+Timings>                      Wall avg =   6.76e-07
+Timings>                      Wall min =   6.76e-07
 Timings> 
-Timings> bHistogramInit...... Wall max =  1.021e-05
-Timings>                      Wall avg =  1.021e-05
-Timings>                      Wall min =  1.021e-05
+Timings> bHistogramInit...... Wall max = 4.2413e-05
+Timings>                      Wall avg = 4.2413e-05
+Timings>                      Wall min = 4.2413e-05
 Timings> 
-Timings> bMergeBins.......... Wall max = 6.4611e-05
-Timings>                      Wall avg = 6.4611e-05
-Timings>                      Wall min = 6.4611e-05
+Timings> bMergeBins.......... Wall max = 6.4652e-05
+Timings>                      Wall avg = 6.4652e-05
+Timings>                      Wall min = 6.4652e-05
 Timings> 
-Timings> SolveTimer.......... Wall max = 0.000349634
-Timings>                      Wall avg = 0.000349634
-Timings>                      Wall min = 0.000349634
+Timings> SolveTimer.......... Wall max = 0.00372164
+Timings>                      Wall avg = 0.00372164
+Timings>                      Wall min = 0.00372164
 Timings> 
-Timings> scatter............. Wall max = 6.2897e-05
-Timings>                      Wall avg = 6.2897e-05
-Timings>                      Wall min = 6.2897e-05
+Timings> scatter............. Wall max = 0.00142209
+Timings>                      Wall avg = 0.00142209
+Timings>                      Wall min = 0.00142209
 Timings> 
-Timings> accumulateHalo...... Wall max =   1.37e-07
-Timings>                      Wall avg =   1.37e-07
-Timings>                      Wall min =   1.37e-07
+Timings> accumulateHalo...... Wall max =   3.04e-07
+Timings>                      Wall avg =   3.04e-07
+Timings>                      Wall min =   3.04e-07
 Timings> 
-Timings> fillHalo............ Wall max =    6.6e-08
-Timings>                      Wall avg =    6.6e-08
-Timings>                      Wall min =    6.6e-08
+Timings> fillHalo............ Wall max =   1.53e-07
+Timings>                      Wall avg =   1.53e-07
+Timings>                      Wall min =   1.53e-07
 Timings> 
-Timings> gather.............. Wall max = 3.8496e-05
-Timings>                      Wall avg = 3.8496e-05
-Timings>                      Wall min = 3.8496e-05
+Timings> gather.............. Wall max = 0.000685176
+Timings>                      Wall avg = 0.000685176
+Timings>                      Wall min = 0.000685176
 Timings> 
 Timings> ---------------------------------------------
