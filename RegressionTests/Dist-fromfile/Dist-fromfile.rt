@@ -11,6 +11,6 @@ stat "emit_s"     last 1E-12
 stat "mean_x"     last 1E-12
 stat "mean_y"     last 1E-12
 stat "mean_s"     last 1E-12
-stat "energy"     last 1E-12
-stat "nBins"      last 0
-stat "numParticles" last 0
+stat "energy"     last 1E-10
+stat "nBins"      last 1E-12
+stat "numParticles" last 1E-12
