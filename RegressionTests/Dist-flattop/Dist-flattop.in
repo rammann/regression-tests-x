@@ -1,7 +1,7 @@
 /*
-	Sanity check of a simple Gaussian distribution without space charge, 
+    Sanity check of a simple Flattop distribution without space charge, 
     in a single drift step. Focuses on distribution properties rather than 
-    multi-step tracking.
+    multi-step tracking, but needs some timesteps to do the sampling in time.
 */
 
 OPTION, PSDUMPFREQ      = 10;    // 6d data written every 10th time step (h5).
@@ -11,7 +11,7 @@ OPTION, AUTOPHASE       = 4;     // Autophase is on, and phase of max energy
                                  // gain will be found automatically for cavities.
 OPTION, VERSION=10900;
 
-Title, string="Dist Multivariate";
+Title, string="Dist Flattop";
 
 Value,{OPALVERSION};
 
@@ -50,17 +50,16 @@ FS1: Fieldsolver, TYPE=NONE,
     BCFFTY=OPEN, 
     BCFFTZ=OPEN, BBOXINCR = 1, GREENSF = INTEGRATED;
 
-Dist1: DISTRIBUTION, TYPE=MULTIVARIATEGAUSS, 
-    SIGMAX=1e-1, 
-    SIGMAY=1e-2, 
-    SIGMAZ=1e-3, 
-    SIGMAPX=1e-2, 
-    SIGMAPY=1e-3, 
-    SIGMAPZ=2e-3, 
-    // Correlation matrix: spatial and momentum couplings
-    CORR = {1e-2,2e-2,3e-3,6e-4,1e-2,2e-3,2e-4,1e-4,5e-4,1e-4,2e-4,3e-3,5e-4,2e-4,1e-4};
+Dist1: DISTRIBUTION, TYPE=FLATTOP,
+        SIGMAX = 0.00075,
+        SIGMAY = 0.00075,
+        TRISE = 6.0e-12,
+        TFALL = 6.0e-12,
+        TPULSEFWHM = 20.0e-12,
+        CUTOFFLONG = 4.0,
+        EMITTED = true;
 
-TRACK, LINE = myLine, BEAM = BEAM1, MAXSTEPS = 1, DT = {1e-12}, ZSTOP=1.0; 
+TRACK, LINE = myLine, BEAM = BEAM1, MAXSTEPS = 30, DT = {1e-12}, ZSTOP=1.0; 
  RUN, METHOD = "PARALLEL", BEAM = BEAM1, FIELDSOLVER = FS1, DISTRIBUTION = Dist1;
 ENDTRACK;
 QUIT;
