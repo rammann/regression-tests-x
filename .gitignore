@@ -6,3 +6,5 @@
 *.aux
 *.h5
 data
+*.png
+*.dat
