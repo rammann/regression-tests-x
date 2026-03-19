@@ -5,6 +5,11 @@ OPTION, AUTOPHASE=4;        // Autophase is on, and phase of max energy
                             // gain will be found automatically for cavities
 Option, VERSION=10900;
 
+// This controls wheather Q/M are stored as full ATTRIBUTES or
+//  a shared single values (smaller memory footprint).
+// If not specified it defaults to FALSE.
+OPTION, USE_QM_ATTRIBUTES=TRUE;
+
 Title, string="FODO Test";
 
 //----------------------------------------------------------------------------
