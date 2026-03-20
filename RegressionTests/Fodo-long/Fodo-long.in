@@ -5,7 +5,7 @@ OPTION, AUTOPHASE=4;        // Autophase is on, and phase of max energy
                             // gain will be found automatically for cavities
 Option, VERSION=10900;
 
-Title, string="FODO Test";
+Title, string="FODO long";
 
 //----------------------------------------------------------------------------
 //Global Parameters
