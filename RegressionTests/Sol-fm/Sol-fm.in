@@ -163,7 +163,6 @@ TRACK,  LINE = Line2,           // <-
         ZSTOP = 1.5;            // <- 
 
 RUN,    METHOD = "PARALLEL", 
-        BEAM = BEAM0,
         FIELDSOLVER = FS1; 
 
 //----------------------------------------------------------------------------
