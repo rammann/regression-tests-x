@@ -1,0 +1,67 @@
+/*      Drift-open-muon-decay.in
+    OPALX
+    Drift case with global muon decay enabled.
+*/
+
+OPTION, PSDUMPFREQ      = 100;
+OPTION, STATDUMPFREQ    = 1;
+OPTION, BOUNDPDESTROY   = 10;
+OPTION, AUTOPHASE       = 4;
+OPTION, VERSION         = 10900;
+
+Title, string="Test drift with MUON decay";
+
+Value,{OPALVERSION};
+
+// ----------------------------------------------------------------------------
+// Global Parameters
+
+REAL N                   = 32;
+REAL rf_freq             = 1.3e9;        // RF frequency [Hz]
+REAL n_particles         = N*N*N;        // Number of particles in simulation
+REAL beam_bunch_charge   = 1e-11;        // Bunch charge [C]
+
+// ----------------------------------------------------------------------------
+// Initial Momentum Calculation
+
+REAL MUON_MASS = 0.1056583755;           // [GeV]
+REAL Edes      = 1e-9;                   // Kinetic energy [GeV]
+REAL gamma     = (Edes + MUON_MASS) / MUON_MASS;
+REAL beta      = sqrt(1 - (1 / gamma^2));
+REAL P0        = gamma * beta * MUON_MASS;
+
+value, {Edes, P0};
+
+D1: DRIFT, L = 1.25, ELEMEDGE = 0.0;
+myLine: Line = (D1);
+
+Dist1: DISTRIBUTION, TYPE=GAUSS,
+    SIGMAX=1e-3,
+    SIGMAY=1e-3,
+    SIGMAZ=1e-3,
+    SIGMAPX=1e-9,
+    SIGMAPY=1e-9,
+    SIGMAPZ=1e-9,
+    NPARTDIST = n_particles;
+
+ES1: EMISSIONSOURCE, DISTRIBUTION = Dist1;
+mySources: EMISSIONSOURCELIST = (ES1);
+
+BEAM1: BEAM, PARTICLE = MUON, PC = P0, NPART = n_particles,
+       BFREQ = rf_freq, BCURRENT = beam_bunch_charge * rf_freq * 1e6,
+       SOURCES = mySources, CHARGE = -1, PHYSICSPROCESSES = {"DECAY"};
+
+FS1: Fieldsolver, TYPE=OPEN,
+    NX=N,
+    NY=N,
+    NZ=N,
+    PARFFTX = true,
+    PARFFTY = true,
+    PARFFTZ = false,
+    BCFFTX=OPEN,
+    BCFFTY=OPEN,
+    BCFFTZ=OPEN, BBOXINCR = 5, GREENSF = STANDARD;
+
+TRACK, LINE = myLine, BEAM = BEAM1, MAXSTEPS = 20, DT = {5e-11}, ZSTOP=1.25;
+RUN, METHOD = "PARALLEL", FIELDSOLVER = FS1;ENDTRACK;
+QUIT;

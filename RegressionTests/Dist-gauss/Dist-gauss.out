@@ -1,0 +1,182 @@
+OPAL-X>               ____  _____        _       __   __
+OPAL-X> [1;32m
+OPAL-X> 
+OPAL-X>   ██████  ██████   █████  ██      ██   ██
+OPAL-X>  ██    ██ ██   ██ ██   ██ ██       ██ ██
+OPAL-X>  ██    ██ ██████  ███████ ██        ███
+OPAL-X>  ██    ██ ██      ██   ██ ██       ██ ██
+OPAL-X>   ██████  ██      ██   ██ ███████ ██   ██
+OPAL-X> 
+OPAL-X>          This is OPALX (Object Oriented Parallel Accelerator Library for Exascale)
+OPAL-X> 
+OPAL-X> [0m
+OPAL-X> 
+OPAL-X> OPALX is the performance portable version of OPAL :: Version 0.9
+OPAL-X>             git rev. 845c2669310b1e8f08046e4c2d978dbe1d351938
+OPAL-X> 
+OPAL-X> 
+OPAL-X>              (c) PSI, https://github.com/OPALX-project/OPALX
+OPAL-X> 
+OPAL-X> 
+OPAL-X> Please send cookies, goodies or other motivations (wine and beer ... ) 
+OPAL-X> to the OPAL developers https://github.com/OPALX-project/OPALX/issues
+OPAL-X> 
+OPAL-X> Time: 10:58:32 date: 08/04/2026
+OPAL-X> 
+OPAL-X> * Host:   Serial
+OPAL-X> * Device: Serial execution
+OPAL-X> 
+OPAL-X> * Reading input stream 'Dist-gauss.in'
+OPAL-X> 
+OPAL-X> value: {OPALVERSION} = {900}
+OPAL-X> 
+OPAL-X> 
+OPAL-X> value: {EDES,P0} = {0.01, 0.0104986}
+OPAL-X> 
+OPAL-X> * ************* F I E L D S O L V E R ********************************************** 
+OPAL-X> * FIELDSOLVER  FS1
+OPAL-X> * BINS         NONE
+OPAL-X> * TYPE         NONE
+OPAL-X> * RANKS        1
+OPAL-X> * NX           32
+OPAL-X> * NY           32
+OPAL-X> * NZ           32
+OPAL-X> * BBOXINCR     5
+OPAL-X> * GREENSF      STANDARD
+OPAL-X> * XDIM         parallel  
+OPAL-X> * YDIM         parallel  
+OPAL-X> * ZDIM         serial  
+OPAL-X> * ********************************************************************************** 
+OPAL-X> 
+OPAL-X> * RUN resolved beams: BEAM1
+OPAL-X> * ************* B E A M ************************************************************ 
+OPAL-X> * BEAM        BEAM1
+OPAL-X> * PARTICLE    ELECTRON
+OPAL-X> * REST MASS   0.000510999 [GeV]
+OPAL-X> * CHARGE      -e * 1 
+OPAL-X> * MOMENTUM    1.04986e+07 [eV/c]
+OPAL-X> * MOMENTUM    0.0104986 [GeV/c]
+OPAL-X> * CURRENT     1.3 [A]
+OPAL-X> * FREQUENCY   1.3e+09 [MHz]
+OPAL-X> * NPART       100000
+OPAL-X> * ********************************************************************************** 
+OPAL-X> 
+OPAL-X[2]> * Beam[0] BEAM1 macro charge per particle [C]: -1e-20
+OPAL-X[2]> * Beam[0] BEAM1 macro mass per particle [GeV/c^2]: 3.1894e-05
+OPAL-X[2]> * Beam[0] BEAM1 particles per macro particle: 0.0624151
+OPAL-X> 
+OPAL-X> * Creating new file for data: 'Dist-gauss.stat'
+OPAL-X> * Creating new file for data: 'Dist-gauss.lbal'
+PartBunch::setSolver[2]> Initializing solver: NONE
+PartBunch::setBins[2]> Solver FS1 has no binning command attached, not using binning.
+PartBunch::pre_run[2]> Starting pre_run...
+OPAL-X[2]> * BCHandler<3>: [OPEN, OPEN, OPEN]
+OPAL-X[2]> * Particle sampling / sampler setup for all emission sources done.
+OPAL-X> 
+OPAL-X> * ************** B U N C H ********************************************************* 
+OPAL-X> * CONTAINER       = 0
+OPAL-X> * PARTICLES       = 100000
+OPAL-X> * CHARGE          = -1.000000e-15 (Cb) 
+OPAL-X> * QM STORAGE MODE = SINGLE
+OPAL-X> * <EKIN>          = 10.000 [MeV]
+OPAL-X> * <dEKIN>         = 161.113 [eV]
+OPAL-X> * INTEGRATOR      = LF2
+OPAL-X> * MIN R (origin)  = (     -2.99430 ,    -14.96617 ,    -29.98979 ) [mm]
+OPAL-X> * MAX R (max ext) = (      3.00048 ,     14.99957 ,     29.96972 ) [mm]
+OPAL-X> * RMS R           = (      0.98867 ,      4.95020 ,      9.86188 ) [mm]
+OPAL-X> * RMS P           = ( 1.004750e-06 , 9.949962e-07 , 9.982187e-07 ) [beta gamma]
+OPAL-X> * Mean R          = ( 2.018134e-20 , 4.513057e-19 , 1.556567e-19 ) [m]
+OPAL-X> * Mean P          = ( -9.378422e-10 , -1.362059e-09 , 2.054519e+01 ) [beta gamma]
+OPAL-X> * MESH SPACING    = (      0.20607 ,      1.03007 ,      2.06111 ) [mm]
+OPAL-X> * COMPDOM INCR    = 5.000000e+00 (%) 
+OPAL-X> * FIELD LAYOUT    = Domain = {[0:31:1],[0:31:1],[0:31:1]}
+OPAL-X> Total number of boxes = 1
+OPAL-X>     Box 0 {[0:31:1],[0:31:1],[0:31:1]}
+OPAL-X> 
+OPAL-X> * Centroid : 
+OPAL-X> * 2.018134e-15 -9.378422e-05 4.513057e-14 -1.362059e-04 1.556567e-14 2.054519e+06 
+OPAL-X> * Cov Matrix : 
+OPAL-X> * 9.774728e-07 -1.796674e-12 -2.184526e-10 2.516900e-12 -8.284270e-08 -6.670684e-12 
+OPAL-X> * -1.796674e-12 1.009522e-12 -1.725733e-11 -6.088719e-16 -5.258092e-11 3.483443e-15 
+OPAL-X> * -2.184526e-10 -1.725733e-11 2.450452e-05 4.067032e-12 -3.937397e-08 -1.998788e-11 
+OPAL-X> * 2.516900e-12 -6.088719e-16 4.067032e-12 9.900173e-13 2.678484e-11 -4.076246e-15 
+OPAL-X> * -8.284270e-08 -5.258092e-11 -3.937397e-08 2.678484e-11 9.725676e-05 -4.194559e-11 
+OPAL-X> * -6.670684e-12 3.483443e-15 -1.998788e-11 -4.076246e-15 -4.194559e-11 9.964406e-13 
+OPAL-X> * * ********************************************************************************** 
+OPAL-X> 
+OPAL-X> * D1 gone live
+ParallelTracker::execute[2]> Dump initial phase space done.
+OPAL-X> * OrbitThreader dt_m= 5e-11
+OPAL-X> * OrbitThreader maxDistance= 1.14972
+OPAL-X> * OrbitThreader #elements  = 1
+OPAL-X> 
+OPAL-X> * Size of map 1 sections 
+OPAL-X> * Key: (0.000000 - 1.003117) number of overlapping elements 1
+OPAL-X> *                            D1
+OPAL-X> 
+OPAL-X> * Creating new file for data: 'data/Dist-gauss_ElementPositions.sdds'
+OPAL-X> * Track start at: 10:58:32, t= 0.000 [fs]; zstart at: 0.000 [um]
+OPAL-X> * Initial dt = 50.000 [ps]
+OPAL-X> * Max integration steps = 1, next step = 0
+OPAL-X>                dt [ns]           zStop [m]        num Steps [1]
+OPAL-X> ->         5.000000e-11        1.000000e+00                   1
+PartBunch::performBunchSanityChecks[2]> ========= Done performing PartBunch sanity checks... =========
+ParallelTracker::execute[2]> Starting track with dt = 50.000 [ps], track steps = 0 to 1.
+OPAL-X> * 10:58:32 Step      0 container[0] at 14.972 [mm], t= 50.000 [ps], E=10.000 [MeV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X[2]> * Dump phase space of last step
+OPAL-X> * D1 gone off
+OPAL-X> 
+OPAL-X> * Done executing ParallelTracker at 10:58:32
+OPAL-X> 
+OPAL-X> * End of input stream 'Dist-gauss.in'
+Timings> ---------------------------------------------
+Timings>      Timing results for 1 rank(s):
+Timings> ---------------------------------------------
+Timings> mainTimer........... Wall tot =   0.076742
+Timings> 
+Timings> Write Stat.......... Wall max =   0.005528
+Timings>                      Wall avg =   0.005528
+Timings>                      Wall min =   0.005528
+Timings> 
+Timings> Write H5-File....... Wall max =   0.004785
+Timings>                      Wall avg =   0.004785
+Timings>                      Wall min =   0.004785
+Timings> 
+Timings> samplingTime........ Wall max =   0.039352
+Timings>                      Wall avg =   0.039352
+Timings>                      Wall min =   0.039352
+Timings> 
+Timings> Sampling............ Wall max =    0.03933
+Timings>                      Wall avg =    0.03933
+Timings>                      Wall min =    0.03933
+Timings> 
+Timings> particleBC.......... Wall max =   0.000755
+Timings>                      Wall avg =   0.000755
+Timings>                      Wall min =   0.000755
+Timings> 
+Timings> updateParticle...... Wall max =          0
+Timings>                      Wall avg =          0
+Timings>                      Wall min =          0
+Timings> 
+Timings> TIntegration1....... Wall max =   0.000219
+Timings>                      Wall avg =   0.000219
+Timings>                      Wall min =   0.000219
+Timings> 
+Timings> TIntegration2....... Wall max =   0.000525
+Timings>                      Wall avg =   0.000525
+Timings>                      Wall min =   0.000525
+Timings> 
+Timings> External field eval. Wall max =   0.000521
+Timings>                      Wall avg =   0.000521
+Timings>                      Wall min =   0.000521
+Timings> 
+Timings> Binaryrepart........ Wall max =          0
+Timings>                      Wall avg =          0
+Timings>                      Wall min =          0
+Timings> 
+Timings> OrbThreader......... Wall max =   0.000407
+Timings>                      Wall avg =   0.000407
+Timings>                      Wall min =   0.000407
+Timings> 
+Timings> ---------------------------------------------

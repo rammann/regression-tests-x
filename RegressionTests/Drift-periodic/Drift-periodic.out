@@ -1,0 +1,236 @@
+OPAL-X>               ____  _____        _       __   __
+OPAL-X> [1;32m
+OPAL-X> 
+OPAL-X>   ██████  ██████   █████  ██      ██   ██
+OPAL-X>  ██    ██ ██   ██ ██   ██ ██       ██ ██
+OPAL-X>  ██    ██ ██████  ███████ ██        ███
+OPAL-X>  ██    ██ ██      ██   ██ ██       ██ ██
+OPAL-X>   ██████  ██      ██   ██ ███████ ██   ██
+OPAL-X> 
+OPAL-X>          This is OPALX (Object Oriented Parallel Accelerator Library for Exascale)
+OPAL-X> 
+OPAL-X> [0m
+OPAL-X> 
+OPAL-X> OPALX is the performance portable version of OPAL :: Version 0.9
+OPAL-X>             git rev. 845c2669310b1e8f08046e4c2d978dbe1d351938
+OPAL-X> 
+OPAL-X> 
+OPAL-X>              (c) PSI, https://github.com/OPALX-project/OPALX
+OPAL-X> 
+OPAL-X> 
+OPAL-X> Please send cookies, goodies or other motivations (wine and beer ... ) 
+OPAL-X> to the OPAL developers https://github.com/OPALX-project/OPALX/issues
+OPAL-X> 
+OPAL-X> Time: 10:58:50 date: 08/04/2026
+OPAL-X> 
+OPAL-X> * Host:   Serial
+OPAL-X> * Device: Serial execution
+OPAL-X> 
+OPAL-X> * Reading input stream 'Drift-periodic.in'
+OPAL-X> 
+OPAL-X> value: {OPALVERSION} = {900}
+OPAL-X> 
+OPAL-X> 
+OPAL-X> value: {EDES,P0} = {1e-09, 1.01094e-06}
+OPAL-X> 
+OPAL-X> * ************* F I E L D S O L V E R ********************************************** 
+OPAL-X> * FIELDSOLVER  FS1
+OPAL-X> * BINS         NONE
+OPAL-X> * TYPE         FFT
+OPAL-X> * RANKS        1
+OPAL-X> * NX           32
+OPAL-X> * NY           32
+OPAL-X> * NZ           32
+OPAL-X> * BBOXINCR     5
+OPAL-X> * GREENSF      STANDARD
+OPAL-X> * XDIM         parallel  
+OPAL-X> * YDIM         parallel  
+OPAL-X> * ZDIM         serial  
+OPAL-X> * ********************************************************************************** 
+OPAL-X> 
+OPAL-X> * RUN resolved beams: BEAM1
+OPAL-X> * ************* B E A M ************************************************************ 
+OPAL-X> * BEAM        BEAM1
+OPAL-X> * PARTICLE    ELECTRON
+OPAL-X> * REST MASS   0.000510999 [GeV]
+OPAL-X> * CHARGE      -e * 1 
+OPAL-X> * MOMENTUM    1010.94 [eV/c]
+OPAL-X> * MOMENTUM    1.01094e-06 [GeV/c]
+OPAL-X> * CURRENT     13000 [A]
+OPAL-X> * FREQUENCY   1.3e+09 [MHz]
+OPAL-X> * NPART       32768
+OPAL-X> * ********************************************************************************** 
+OPAL-X> 
+OPAL-X[2]> * Beam[0] BEAM1 macro charge per particle [C]: -3.05176e-16
+OPAL-X[2]> * Beam[0] BEAM1 macro mass per particle [GeV/c^2]: 0.973329
+OPAL-X[2]> * Beam[0] BEAM1 particles per macro particle: 1904.76
+OPAL-X> 
+OPAL-X> * Creating new file for data: 'Drift-periodic.stat'
+OPAL-X> * Creating new file for data: 'Drift-periodic.lbal'
+PartBunch::setSolver[2]> Initializing solver: FFT
+PartBunch::setBins[2]> Solver FS1 has no binning command attached, not using binning.
+PartBunch::pre_run[2]> Starting pre_run...
+OPAL-X[2]> * BCHandler<3>: [PERIODIC, PERIODIC, PERIODIC]
+OPAL-X[2]> * Particle sampling / sampler setup for all emission sources done.
+OPAL-X> 
+OPAL-X> * ************** B U N C H ********************************************************* 
+OPAL-X> * CONTAINER       = 0
+OPAL-X> * PARTICLES       = 32768
+OPAL-X> * CHARGE          = -1.000000e-11 (Cb) 
+OPAL-X> * QM STORAGE MODE = SINGLE
+OPAL-X> * <EKIN>          = 1.000 [eV]
+OPAL-X> * <dEKIN>         = 0.000 [eV]
+OPAL-X> * INTEGRATOR      = LF2
+OPAL-X> * MIN R (origin)  = (     -2.99037 ,     -2.97023 ,     -2.98583 ) [mm]
+OPAL-X> * MAX R (max ext) = (      2.99497 ,      2.98864 ,      3.00895 ) [mm]
+OPAL-X> * RMS R           = (    985.07250 ,    994.09241 ,    987.62600 ) [um]
+OPAL-X> * RMS P           = ( 9.971268e-10 , 9.967558e-10 , 1.003360e-09 ) [beta gamma]
+OPAL-X> * Mean R          = ( -5.293956e-20 , 1.821452e-21 , -9.026857e-20 ) [m]
+OPAL-X> * Mean P          = ( -3.505941e-12 , 5.337695e-12 , 1.978359e-03 ) [beta gamma]
+OPAL-X> * MESH SPACING    = (    205.74581 ,    204.83612 ,    206.07056 ) [um]
+OPAL-X> * COMPDOM INCR    = 5.000000e+00 (%) 
+OPAL-X> * FIELD LAYOUT    = Domain = {[0:31:1],[0:31:1],[0:31:1]}
+OPAL-X> Total number of boxes = 1
+OPAL-X>     Box 0 {[0:31:1],[0:31:1],[0:31:1]}
+OPAL-X> 
+OPAL-X> * Centroid : 
+OPAL-X> * -1.734723e-15 -1.148827e-07 5.968533e-17 1.749056e-07 -2.957920e-15 6.482688e+01 
+OPAL-X> * Cov Matrix : 
+OPAL-X> * 9.703678e-07 2.370598e-15 9.321539e-09 -3.229410e-15 1.295832e-08 -1.337483e-16 
+OPAL-X> * 2.370598e-15 9.942618e-19 -9.499070e-15 -7.532501e-21 1.764664e-15 -6.773932e-22 
+OPAL-X> * 9.321539e-09 -9.499070e-15 9.882197e-07 1.871621e-15 7.528638e-09 7.514154e-16 
+OPAL-X> * -3.229410e-15 -7.532501e-21 1.871621e-15 9.935222e-19 -4.726361e-15 -2.505067e-21 
+OPAL-X> * 1.295832e-08 1.764664e-15 7.528638e-09 -4.726361e-15 9.754051e-07 5.372373e-15 
+OPAL-X> * -1.337483e-16 -6.773932e-22 7.514154e-16 -2.505067e-21 5.372373e-15 1.006732e-18 
+OPAL-X> * * ********************************************************************************** 
+OPAL-X> 
+OPAL-X> * D1 gone live
+ParallelTracker::execute[2]> Dump initial phase space done.
+OPAL-X> * OrbitThreader dt_m= 5e-11
+OPAL-X> * OrbitThreader maxDistance= 10
+OPAL-X> * OrbitThreader #elements  = 1
+OPAL-X> 
+OPAL-X> * Size of map 1 sections 
+OPAL-X> * Key: (0.000000 - 1.250009) number of overlapping elements 1
+OPAL-X> *                            D1
+OPAL-X> 
+OPAL-X> * Creating new file for data: 'data/Drift-periodic_ElementPositions.sdds'
+OPAL-X> * Track start at: 10:58:50, t= 0.000 [fs]; zstart at: 0.000 [um]
+OPAL-X> * Initial dt = 50.000 [ps]
+OPAL-X> * Max integration steps = 20, next step = 0
+OPAL-X>                dt [ns]           zStop [m]        num Steps [1]
+OPAL-X> ->         5.000000e-11        1.250000e+00                  20
+PartBunch::performBunchSanityChecks[2]> ========= Done performing PartBunch sanity checks... =========
+ParallelTracker::execute[2]> Starting track with dt = 50.000 [ps], track steps = 0 to 20.
+OPAL-X> * 10:58:50 Step      0 container[0] at 29.655 [um], t= 50.000 [ps], E=1.047 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step      1 container[0] at 59.310 [um], t= 100.000 [ps], E=1.186 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step      2 container[0] at 88.964 [um], t= 150.000 [ps], E=1.411 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step      3 container[0] at 118.619 [um], t= 200.000 [ps], E=1.711 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step      4 container[0] at 148.274 [um], t= 250.000 [ps], E=2.074 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step      5 container[0] at 177.929 [um], t= 300.000 [ps], E=2.488 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step      6 container[0] at 207.584 [um], t= 350.000 [ps], E=2.938 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step      7 container[0] at 237.238 [um], t= 400.000 [ps], E=3.412 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step      8 container[0] at 266.893 [um], t= 450.000 [ps], E=3.897 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step      9 container[0] at 296.548 [um], t= 500.000 [ps], E=4.385 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step     10 container[0] at 326.203 [um], t= 550.000 [ps], E=4.866 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step     11 container[0] at 355.858 [um], t= 600.000 [ps], E=5.335 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step     12 container[0] at 385.512 [um], t= 650.000 [ps], E=5.786 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step     13 container[0] at 415.167 [um], t= 700.000 [ps], E=6.215 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step     14 container[0] at 444.822 [um], t= 750.000 [ps], E=6.621 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step     15 container[0] at 474.477 [um], t= 800.000 [ps], E=7.000 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step     16 container[0] at 504.132 [um], t= 850.000 [ps], E=7.353 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step     17 container[0] at 533.786 [um], t= 900.000 [ps], E=7.679 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step     18 container[0] at 563.441 [um], t= 950.000 [ps], E=7.979 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X> * 10:58:50 Step     19 container[0] at 593.096 [um], t= 1.000 [ns], E=8.253 [eV]
+OPAL-X[2]> * Wrote beam statistics.
+OPAL-X[2]> * Dump phase space of last step
+OPAL-X> * D1 gone off
+OPAL-X> 
+OPAL-X> * Done executing ParallelTracker at 10:58:50
+OPAL-X> 
+OPAL-X> * End of input stream 'Drift-periodic.in'
+Timings> ---------------------------------------------
+Timings>      Timing results for 1 rank(s):
+Timings> ---------------------------------------------
+Timings> mainTimer........... Wall tot =   0.376411
+Timings> 
+Timings> Write Stat.......... Wall max =   0.036103
+Timings>                      Wall avg =   0.036103
+Timings>                      Wall min =   0.036103
+Timings> 
+Timings> Write H5-File....... Wall max =   0.002272
+Timings>                      Wall avg =   0.002272
+Timings>                      Wall min =   0.002272
+Timings> 
+Timings> samplingTime........ Wall max =   0.013195
+Timings>                      Wall avg =   0.013195
+Timings>                      Wall min =   0.013195
+Timings> 
+Timings> Sampling............ Wall max =   0.013166
+Timings>                      Wall avg =   0.013166
+Timings>                      Wall min =   0.013166
+Timings> 
+Timings> particleBC.......... Wall max =   0.004252
+Timings>                      Wall avg =   0.004252
+Timings>                      Wall min =   0.004252
+Timings> 
+Timings> updateParticle...... Wall max =          0
+Timings>                      Wall avg =          0
+Timings>                      Wall min =          0
+Timings> 
+Timings> TIntegration1....... Wall max =   0.001456
+Timings>                      Wall avg =   0.001456
+Timings>                      Wall min =   0.001456
+Timings> 
+Timings> TIntegration2....... Wall max =   0.003473
+Timings>                      Wall avg =   0.003473
+Timings>                      Wall min =   0.003473
+Timings> 
+Timings> External field eval. Wall max =   0.003372
+Timings>                      Wall avg =   0.003372
+Timings>                      Wall min =   0.003372
+Timings> 
+Timings> Binaryrepart........ Wall max =          0
+Timings>                      Wall avg =          0
+Timings>                      Wall min =          0
+Timings> 
+Timings> OrbThreader......... Wall max =   0.115131
+Timings>                      Wall avg =   0.115131
+Timings>                      Wall min =   0.115131
+Timings> 
+Timings> scatter............. Wall max =    0.00664
+Timings>                      Wall avg =    0.00664
+Timings>                      Wall min =    0.00664
+Timings> 
+Timings> accumulateHalo...... Wall max =    0.00022
+Timings>                      Wall avg =    0.00022
+Timings>                      Wall min =    0.00022
+Timings> 
+Timings> fillHalo............ Wall max =   0.000234
+Timings>                      Wall avg =   0.000234
+Timings>                      Wall min =   0.000234
+Timings> 
+Timings> gather.............. Wall max =   0.004157
+Timings>                      Wall avg =   0.004157
+Timings>                      Wall min =   0.004157
+Timings> 
+Timings> ---------------------------------------------
