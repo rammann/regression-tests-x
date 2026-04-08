@@ -4,7 +4,7 @@
     to test a big drift with space charge.
 */
 
-OPTION, PSDUMPFREQ      = 12000;    // 6d data written every 10th time step (h5).
+OPTION, PSDUMPFREQ      = 100;    // 6d data written every 10th time step (h5).
 OPTION, STATDUMPFREQ    = 10;     // Beam Stats written every time step (stat).
 OPTION, BOUNDPDESTROY=10;
 OPTION, AUTOPHASE       = 4;     // Autophase is on, and phase of max energy

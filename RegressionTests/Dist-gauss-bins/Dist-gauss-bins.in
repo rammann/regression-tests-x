@@ -5,7 +5,7 @@
     properties rather than multi-step tracking.
 */
 
-OPTION, PSDUMPFREQ      = 10;     // 6d data written every 10th time step (h5).
+OPTION, PSDUMPFREQ      = 100;     // 6d data written every 10th time step (h5).
 OPTION, STATDUMPFREQ    = 1;     // Beam Stats written every time step (stat).
 OPTION, BOUNDPDESTROY=10;
 OPTION, AUTOPHASE       = 4;     // Autophase is on, and phase of max energy

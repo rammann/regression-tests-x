@@ -8,3 +8,9 @@
 data
 *.png
 *.dat
+
+# Generated run outputs; golden files live under reference/
+*.stat
+!**/reference/**/*.stat
+*.out
+!**/reference/**/*.out
