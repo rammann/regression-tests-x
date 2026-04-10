@@ -49,7 +49,7 @@ mySources: EMISSIONSOURCELIST = (ES1);
 
 BEAM1: BEAM, PARTICLE = MUON, PC = P0, NPART = n_particles,
        BFREQ = rf_freq, BCURRENT = beam_bunch_charge * rf_freq * 1e6,
-       SOURCES = mySources, CHARGE = -1, PHYSICSPROCESSES = {"DECAY"};
+       SOURCES = mySources, CHARGE = -1, GLOBALPROCESSES = {"DECAY"};
 
 FS1: Fieldsolver, TYPE=OPEN,
     NX=N,
